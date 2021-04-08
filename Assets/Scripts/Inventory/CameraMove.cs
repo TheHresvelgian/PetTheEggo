@@ -10,7 +10,7 @@ public class CameraMove : MonoBehaviour
     private Vector2 mousePos;
     [SerializeField] private float dragDistance;
     private bool drag;
-    private Vector2 deltaMouse;
+    [SerializeField] private Vector2 deltaMouse;
     private void Awake()
     {
         mainCamera = FindObjectOfType<Camera>();
@@ -25,7 +25,7 @@ public class CameraMove : MonoBehaviour
     private void OnMouseDown1() => mousePos = mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
     private void OnLook(InputValue value)
     {
-        deltaMouse = mainCamera.ScreenToWorldPoint(value.Get<Vector2>());
+        deltaMouse = value.Get<Vector2>();
         print(deltaMouse);
     }
 

@@ -27,7 +27,7 @@
                     "id": "0aba1de3-e448-4b5d-857b-4dbfe96a9cc5",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": "Press(behavior=1)"
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -77,19 +77,8 @@
                 },
                 {
                     "name": "",
-                    "id": "bcec904f-f9c0-488b-87cc-8a0eca8d3a75",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7d9c60ed-3079-4b36-b62f-a1ab5182c3b7",
-                    "path": "<Touchscreen>/delta",
+                    "id": "d8685518-2a62-4470-881e-b8e0d34800d1",
+                    "path": "<Pointer>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
