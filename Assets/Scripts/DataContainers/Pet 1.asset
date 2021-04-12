@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870cc87fdbd35d24087aee9bcaad25cb, type: 3}
   m_Name: Pet 1
   m_EditorClassIdentifier: 
-  petName: Bob
+  petName: Bab
   petSprite: {fileID: 21300000, guid: 8be0d8e99cec3a244a35c4413edb2be7, type: 3}
-  growthStage: 0
+  growthStage: 2
   creatureType: 0
-  love: 100
-  clean: 100
-  hunger: 100
-  sleepy: 100
+  love: 63
+  clean: 184
+  hunger: 24
+  sleepy: 21
