@@ -2732,3 +2732,4 @@ Received Import Request.
 Start importing Assets/Scripts/DataContainers/Pet 1.asset using Guid(e00789a487430924baa0376377f5d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5a2296e8f28b798524dc814572f8c9') in 0.022227 seconds
   Import took 0.028668 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
