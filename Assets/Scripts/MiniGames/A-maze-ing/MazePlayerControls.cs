@@ -32,10 +32,9 @@ namespace MiniGames
 
         private void FixedUpdate()
         {
-            eulerAsInt = Mathf.FloorToInt(transform.eulerAngles.z);
-            print(transform.eulerAngles.z);
-            transform.position = Vector3.MoveTowards(transform.position,movePoint.position,moveSpeed * Time.deltaTime);
             var transformEulerAngles = transform.eulerAngles;
+            eulerAsInt = Mathf.FloorToInt(transformEulerAngles.z);
+            transform.position = Vector3.MoveTowards(transform.position,movePoint.position,moveSpeed * Time.deltaTime);
             if (transformEulerAngles.z >= 360f)
             {
                 transformEulerAngles.z -= 360f;
