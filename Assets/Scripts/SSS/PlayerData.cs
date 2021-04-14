@@ -20,6 +20,7 @@ namespace SSS
         public int[] cleans;
         public int[] hungers;
         public int[] sleepies;
+        public int[] growthPercentages;
         
         public PlayerData(Save theData)
         {
@@ -33,6 +34,7 @@ namespace SSS
             cleans = new int[3];
             hungers = new int[3];
             sleepies = new int[3];
+            growthPercentages = new int[3];
 
             names[0] = theData.savePet1.petName;
             names[1] = theData.savePet2.petName;
@@ -61,7 +63,11 @@ namespace SSS
             sleepies[0] = theData.savePet1.sleepy;
             sleepies[1] = theData.savePet2.sleepy;
             sleepies[2] = theData.savePet3.sleepy;
-            
+
+            growthPercentages[0] = theData.savePet1.growthPercent;
+            growthPercentages[1] = theData.savePet2.growthPercent;
+            growthPercentages[2] = theData.savePet3.growthPercent;
+
             /*pets[0] = theData.savePet1;
             pets[1] = theData.savePet2;
             pets[2] = theData.savePet3;

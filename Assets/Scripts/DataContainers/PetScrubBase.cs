@@ -17,5 +17,6 @@ namespace DataContainers
         public int clean;
         public int hunger;
         public int sleepy;
+        public int growthPercent;
     }
 }

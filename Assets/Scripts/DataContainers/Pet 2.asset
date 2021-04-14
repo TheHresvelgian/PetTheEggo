@@ -20,3 +20,4 @@ MonoBehaviour:
   clean: 45
   hunger: 76
   sleepy: 74
+  growthPercent: 4

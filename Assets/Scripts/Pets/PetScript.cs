@@ -17,6 +17,7 @@ namespace Pets
         private int clean;
         private int hunger;
         private int sleepy;
+        private int _growthPercent;
     
         void Start()
         {

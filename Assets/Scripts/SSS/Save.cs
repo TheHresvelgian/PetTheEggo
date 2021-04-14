@@ -48,6 +48,10 @@ namespace SSS
             savePet2.sleepy = data.sleepies[1];
             savePet3.sleepy = data.sleepies[2];
 
+            savePet1.growthPercent = data.growthPercentages[0];
+            savePet2.growthPercent = data.growthPercentages[1];
+            savePet3.growthPercent = data.growthPercentages[2];
+
         }
     }
 }
