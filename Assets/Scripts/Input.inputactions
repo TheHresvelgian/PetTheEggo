@@ -37,7 +37,7 @@
                     "path": "<Touchscreen>/press",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Touchscreen",
                     "action": "MouseDown1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -48,7 +48,7 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard & Mouse",
                     "action": "MouseDown1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -59,7 +59,7 @@
                     "path": "<Touchscreen>/press",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Touchscreen",
                     "action": "MouseUp1",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -70,18 +70,29 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard & Mouse",
                     "action": "MouseUp1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "d8685518-2a62-4470-881e-b8e0d34800d1",
-                    "path": "<Pointer>/delta",
+                    "id": "a379a5f5-a23e-4004-8b2d-3e08ad383fec",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard & Mouse",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5efb6a4-88ce-4d81-86d3-b4df47ece47b",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touchscreen",
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -89,5 +100,33 @@
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "Keyboard & Mouse",
+            "bindingGroup": "Keyboard & Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touchscreen",
+            "bindingGroup": "Touchscreen",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
 }

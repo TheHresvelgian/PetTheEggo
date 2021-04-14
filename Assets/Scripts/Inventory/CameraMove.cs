@@ -6,36 +6,29 @@ using UnityEngine.InputSystem;
 
 public class CameraMove : MonoBehaviour
 {
-    private Camera mainCamera;
-    private Vector2 mousePos;
-    [SerializeField] private float dragDistance;
-    private bool drag;
-    [SerializeField] private Vector2 deltaMouse;
-    private void Awake()
+    [SerializeField] private float MoveTime = 2f;
+    private Camera MainCamera;
+    private Vector3 SmoothDamp;
+    public Vector3 MovePos;
+    private Vector3 Velocity = Vector3.zero;
+
+    private void Start()
     {
-        mainCamera = FindObjectOfType<Camera>();
+        MainCamera = FindObjectOfType<Camera>();
+        MovePos = new Vector3(-23,0,-10f);
     }
 
+    public void BackButton()
+    {
+        MovePos = new Vector3(-23, MovePos.y, MovePos.z);
+    }
+    public void MoveCamera(float pos)
+    {
+        MovePos = new Vector3(0,pos,-10f);
+    }
     private void Update()
     {
-        if (drag) mainCamera.transform.position += new Vector3(0f, deltaMouse.y, 0f);
-        print(deltaMouse);
-    }
-
-    private void OnMouseDown1() => mousePos = mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-    private void OnLook(InputValue value)
-    {
-        deltaMouse = value.Get<Vector2>();
-        print(deltaMouse);
-    }
-
-    private void OnMouseUp1()
-    {
-        print(Vector2.Distance(mousePos, mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue())));
-        drag = false;
-    }
-    public void Select(bool up)
-    {
-        drag = true;
+        SmoothDamp = Vector3.SmoothDamp(MainCamera.transform.position, MovePos, ref Velocity, MoveTime);
+        MainCamera.transform.position = SmoothDamp;
     }
 }
