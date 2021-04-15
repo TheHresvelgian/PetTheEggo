@@ -629,7 +629,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2629,6 +2629,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   information: {fileID: 11400000, guid: e1674c7311ecefa4bbc3b6e1008cbb92, type: 2}
+  pingTime: 60
+  hatchPercent: 0
+  hatchButton: {fileID: 0}
+  transformPercent: 0
+  transformButton: {fileID: 0}
 --- !u!212 &682859256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5157,6 +5162,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   information: {fileID: 11400000, guid: e00789a487430924baa0376377f5d4e0, type: 2}
+  pingTime: 60
+  hatchPercent: 0
+  hatchButton: {fileID: 0}
+  transformPercent: 0
+  transformButton: {fileID: 0}
 --- !u!114 &1499841656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5592,6 +5602,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   information: {fileID: 11400000, guid: 3598feb278f0dde4a86c70e4c1f0cfa1, type: 2}
+  pingTime: 60
+  hatchPercent: 0
+  hatchButton: {fileID: 0}
+  transformPercent: 0
+  transformButton: {fileID: 0}
 --- !u!212 &1666970649
 SpriteRenderer:
   m_ObjectHideFlags: 0

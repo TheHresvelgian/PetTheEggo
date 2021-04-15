@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Runtime.CompilerServices;
 using DataContainers;
 using UnityEngine;
 
@@ -11,7 +10,6 @@ namespace Pets
         private SpriteRenderer _spriteRenderer;
         [SerializeField] private PetScrubBase information;
         private String _petName;
-        private Sprite _petSprite;
         private int _growthStage; //0 is egg, 1 is kid, 2 is adult
         private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
     
@@ -38,7 +36,7 @@ namespace Pets
         [SerializeField] private int transformPercent;
         [SerializeField] private GameObject transformButton;
     
-        void Start()
+        public void Start()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -53,6 +51,10 @@ namespace Pets
             _sleepy = information.sleepy;
 
             _petName = information.petName;
+
+            _growthStage = information.growthStage;
+
+            _creatureType = information.creatureType;
 
         }
 
@@ -150,7 +152,7 @@ namespace Pets
             _spriteRenderer.sprite = newSprite;
             information.petSprite = newSprite;
         }
-
+        
         private IEnumerator WasPinged()
         {
             int total = _isClean + _isFull + _isLoving + -_isRested;
@@ -186,6 +188,12 @@ namespace Pets
             {
                 _love--;
             }
+
+            information.clean = _clean;
+            information.love = _love;
+            information.hunger = _hunger;
+            information.sleepy = _sleepy;
+            information.growthPercent = _growthPercent;
         }
     }
 }
