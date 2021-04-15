@@ -10,7 +10,7 @@ namespace DataContainers
         public String petName;
         public Sprite petSprite;
         public int growthStage; //0 is egg, 1 is kid, 2 is adult
-        public int creatureType; //0 is blob, 1 is lilma, 2 is dragon
+        public int creatureType; //0 is blob, 1 is Lilma, 2 is dragon
 
         [Header("Stats")] 
         public int love;
