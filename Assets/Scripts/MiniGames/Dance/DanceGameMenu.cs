@@ -7,6 +7,8 @@ namespace MiniGames.Dance
     {
         [SerializeField] private DanceGameManager danceGameManager;
         [SerializeField] private GameObject menuPanel;
+        [SerializeField] private GameObject wonPanel;
+        [SerializeField] private GameObject lostPanel;
 
         [SerializeField] private int easy;
         [SerializeField] private int medium;
@@ -39,16 +41,42 @@ namespace MiniGames.Dance
             danceGameManager.StartGame();
         }
         
-        public void GameOver() {
+        public void GameOver() 
+        {
             danceGameManager.gameOver = true;
             danceGameManager.inputEnabled = false;
+            foreach (GameObject gameObject in danceGameManager.gameButtons)
+            {
+                Destroy(gameObject);
+            }
             print("Game Over");
+            lostPanel.SetActive(true);
         }
 
         public void GameWon()
         {
-            print("WHOOO");
+            danceGameManager.gameOver = true;
+            danceGameManager.inputEnabled = false;
+            foreach (GameObject gameObject in danceGameManager.gameButtons)
+            {
+                Destroy(gameObject);
+            }
+            print("YAY");
+            wonPanel.SetActive(true);
         }
 
+        public void ChangeDifficulty()
+        {
+            wonPanel.SetActive(false);
+            lostPanel.SetActive(false);
+            menuPanel.SetActive(true);
+        }
+
+        public void PlayAgain()
+        {
+            wonPanel.SetActive(false);
+            lostPanel.SetActive(false);
+            danceGameManager.StartGame();
+        }
     }
 }

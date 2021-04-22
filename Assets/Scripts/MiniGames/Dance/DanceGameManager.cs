@@ -16,7 +16,7 @@ namespace MiniGames.Dance
 
         public Transform gameFieldPanelTransform;
 
-        List<GameObject> gameButtons;
+        public List<GameObject> gameButtons;
 
         [SerializeField] int bleepCount = 1;
 

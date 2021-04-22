@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25271395e88993842a545fbf9ad85fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  danceGameMenu: {fileID: 1315841355}
   gameButtonPrefab: {fileID: 443140081177550450, guid: be1f14acc5ab8b149a0ed49fdb96149f, type: 3}
   buttonSettings:
   - normalColor: {r: 0.5882353, g: 0, b: 0, a: 1}
@@ -260,13 +261,16 @@ MonoBehaviour:
   - normalColor: {r: 0, g: 0.5882353, b: 0, a: 1}
     highlightColor: {r: 0, g: 1, b: 0, a: 1}
   gameFieldPanelTransform: {fileID: 1442222953}
+  gameButtons: []
   bleepCount: 1
+  inputEnabled: 0
+  gameOver: 0
   audioSource: {fileID: 1442222956}
   clip1: {fileID: 8300000, guid: c3b3da783f58a134a8b924695bed0e00, type: 3}
   clip2: {fileID: 8300000, guid: 2dbd6c45644ef094b8f2477b735695cd, type: 3}
   clip3: {fileID: 8300000, guid: c3b3da783f58a134a8b924695bed0e00, type: 3}
   clip4: {fileID: 8300000, guid: 2dbd6c45644ef094b8f2477b735695cd, type: 3}
-  maxBleeps: 10
+  maxBleeps: 2
   words:
   - Hei
   - Tak
@@ -473,6 +477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   danceGameManager: {fileID: 748390635}
   menuPanel: {fileID: 1588882827}
+  wonPanel: {fileID: 1940961876}
+  lostPanel: {fileID: 1940961876}
   easy: 5
   medium: 10
   hard: 15
