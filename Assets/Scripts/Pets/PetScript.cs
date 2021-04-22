@@ -8,7 +8,7 @@ namespace Pets
     public class PetScript : MonoBehaviour
     {
         private SpriteRenderer _spriteRenderer;
-        [SerializeField] private PetScrubBase information;
+        public PetScrubBase information { get; private set; }
         private String _petName;
         private int _growthStage; //0 is egg, 1 is kid, 2 is adult
         private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
