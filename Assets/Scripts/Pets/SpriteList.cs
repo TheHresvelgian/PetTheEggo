@@ -2,18 +2,22 @@ using UnityEngine;
 
 namespace Pets
 {
-    public static class SpriteList
+    [CreateAssetMenu]
+    public class SpriteList : ScriptableObject
     {
-        public static Sprite mochiEgg;
-        public static Sprite mochiKid;
-        public static Sprite mochiAdult;
+        public Sprite mochiEgg;
+        public Sprite mochiKid;
+        public Sprite mochiAdult;
 
-        public static Sprite lilmaEgg;
-        public static Sprite lilmaKid;
-        public static Sprite lilmaAdult;
+        public Sprite lilmaEgg;
+        public Sprite lilmaKid;
+        public Sprite lilmaAdult;
 
-        public static Sprite nyodleEgg;
-        public static Sprite nyodleKid;
-        public static Sprite nyodleAdult;
+        public Sprite nyodleEgg;
+        public Sprite nyodleKid;
+        public Sprite nyodleAdult;
+
+        public Sprite letter;
+        public Sprite basket;
     }
 }

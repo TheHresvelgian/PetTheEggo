@@ -9,6 +9,7 @@ namespace Pets
         private Animator _animator;
         [SerializeField] private PetScript petScript;
         [SerializeField] private PetScrubBase petScrub;
+        [SerializeField] private SpriteList spriteList;
 
         private void Start()
         {
@@ -26,13 +27,13 @@ namespace Pets
                 switch (petScrub.creatureType)
                 {
                     case 0:
-                        petScrub.petSprite = SpriteList.mochiKid;
+                        petScrub.petSprite = spriteList.mochiKid;
                         break;
                     case 1:
-                        petScrub.petSprite = SpriteList.lilmaKid;
+                        petScrub.petSprite = spriteList.lilmaKid;
                         break;
                     case 2:
-                        petScrub.petSprite = SpriteList.nyodleKid;
+                        petScrub.petSprite = spriteList.nyodleKid;
                         break;
                     default:
                         print("growth stage kid, no sprite");
@@ -44,13 +45,13 @@ namespace Pets
                 switch (petScrub.creatureType)
                 {
                     case 0:
-                        petScrub.petSprite = SpriteList.mochiAdult;
+                        petScrub.petSprite = spriteList.mochiAdult;
                         break;
                     case 1:
-                        petScrub.petSprite = SpriteList.lilmaAdult;
+                        petScrub.petSprite = spriteList.lilmaAdult;
                         break;
                     case 2:
-                        petScrub.petSprite = SpriteList.nyodleAdult;
+                        petScrub.petSprite = spriteList.nyodleAdult;
                         break;
                     default:
                         print("growth stage adult, no sprite");

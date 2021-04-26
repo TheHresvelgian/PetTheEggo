@@ -7,8 +7,9 @@ namespace Pets
 {
     public class PetScript : MonoBehaviour
     {
-        private SpriteRenderer _spriteRenderer;
+        public SpriteRenderer _spriteRenderer;
         public PetScrubBase information { get; private set; }
+        [SerializeField] private BaiBitch baiBitch;
         private String _petName;
         private int _growthStage; //0 is egg, 1 is kid, 2 is adult
         private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
@@ -26,6 +27,7 @@ namespace Pets
         private int _isRested; //-1 is bad (20 or less), 0 is normal (21-50), +1 is good (51-80), +2 is awesome (81-100)
 
         private int _growthPercent;
+        private int _leavePercent;
 
         public float pingTime = 60f;
         private float _timer;
@@ -39,6 +41,8 @@ namespace Pets
         public void Start()
         {
             _spriteRenderer = GetComponent<SpriteRenderer>();
+
+            baiBitch = GetComponent<BaiBitch>();
 
             _spriteRenderer.sprite = information.petSprite;
 
@@ -55,6 +59,10 @@ namespace Pets
             _growthStage = information.growthStage;
 
             _creatureType = information.creatureType;
+
+            _growthPercent = information.growthPercent;
+
+            _leavePercent = information.leavePercent;
 
         }
 
@@ -139,10 +147,19 @@ namespace Pets
             {
                 hatchButton.SetActive(true);
             }
-
-            if (_growthPercent >= transformPercent && _growthStage == 1)
+            else if (_growthPercent >= transformPercent && _growthStage == 1)
             {
                 transformButton.SetActive(true);
+            }
+            else
+            {
+                transformButton.SetActive(false);
+                hatchButton.SetActive(false);
+            }
+
+            if (_leavePercent >= 100)
+            {
+                baiBitch.Leave();
             }
 
         }
@@ -161,6 +178,7 @@ namespace Pets
                 if (total == 8)
                 {
                     _growthPercent += 4;
+                    _leavePercent--;
                 }
 
                 else if (total >= 6)
@@ -187,6 +205,7 @@ namespace Pets
             if (_isClean + _isFull + _isRested <= 0)
             {
                 _love--;
+                _leavePercent++;
             }
 
             information.clean = _clean;

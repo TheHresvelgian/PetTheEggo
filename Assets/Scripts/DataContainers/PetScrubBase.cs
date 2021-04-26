@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 namespace DataContainers
@@ -18,5 +19,21 @@ namespace DataContainers
         public int hunger;
         public int sleepy;
         public int growthPercent;
+        public int leavePercent;
+
+        public void ResetPet()
+        {
+            petName = null;
+            petSprite = null;
+            growthStage = 0;
+            creatureType = -1;
+
+            love = 0;
+            clean = 0;
+            hunger = 0;
+            sleepy = 0;
+            growthPercent = 0;
+            leavePercent = 0;
+        }
     }
 }
