@@ -952,14 +952,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff8c6550ad5f9348be5ac895d477012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplier: 0
+  pet: {fileID: 0}
   sheepPrefab: {fileID: 7665694236349229128, guid: 583bb4a4629f9174f93566fb3feb78d9, type: 3}
   allSheep: []
+  jumpedSheep: []
   targetPoint: {fileID: 1691560354}
   sThreshold: 1
   aThreshold: 2
   bThreshold: 3
   cThreshold: 4
   fThreshold: 5
+  grade: 0
+  score: 0
+  playerInputPanel: {fileID: 0}
+  menuPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  baseMoveSpeed: 0
+  moveSpeed: 0
 --- !u!1 &1232875009
 GameObject:
   m_ObjectHideFlags: 0

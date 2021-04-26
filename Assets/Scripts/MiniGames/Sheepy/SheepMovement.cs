@@ -1,20 +1,21 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using Pets;
 using UnityEngine;
-using UnityEngine.ParticleSystemJobs;
 using Random = UnityEngine.Random;
 
 namespace MiniGames.Sheepy
 {
     public class SheepMovement : MonoBehaviour
     {
+        [SerializeField] private float multiplier;
+        
         [SerializeField] private GameObject pet;
         
         [SerializeField] private GameObject sheepPrefab;
 
         public List<GameObject> allSheep;
+        public List<GameObject> jumpedSheep;
 
         [SerializeField] private Transform targetPoint;
 
@@ -27,6 +28,8 @@ namespace MiniGames.Sheepy
         [SerializeField] private int grade; //0 = s, 1 = a, 2 = b, 3 = c, 4 = f
         [SerializeField] private int score;
 
+        [SerializeField] private GameObject playerInputPanel;
+        
         [SerializeField] private GameObject menuPanel;
         [SerializeField] private GameObject gameOverPanel;
 
@@ -38,6 +41,7 @@ namespace MiniGames.Sheepy
             menuPanel.SetActive(false);
             gameOverPanel.SetActive(false);
             allSheep = new List<GameObject>();
+            jumpedSheep = new List<GameObject>();
             StartCoroutine(nameof(SpawnDelay));
             score = 0;
         }
@@ -51,23 +55,31 @@ namespace MiniGames.Sheepy
 
         private void Update()
         {
-            moveSpeed = baseMoveSpeed + 0.01f * Time.time;
+            moveSpeed = baseMoveSpeed + multiplier * Time.time;
             
             foreach (var sheep in allSheep)
             {
                 sheep.transform.Translate(moveSpeed * Time.deltaTime,0f,0f);
             }
+
+            foreach (var sheep in jumpedSheep)
+            {
+                sheep.transform.Translate(moveSpeed * Time.deltaTime,0f,0f);
+                
+            }
         }
-
-
+        
         public void SpawnSheep()
         {
             allSheep.Add(Instantiate(sheepPrefab));
+            allSheep[allSheep.Count-1].GetComponent<Animator>().SetTrigger(1); //run
         }
 
         public void DeleteSheep()
         {
+            jumpedSheep.Add(allSheep[0]);
             allSheep.Remove(allSheep[0]);
+            Destroy(jumpedSheep[0],5f);
         }
 
         public void PressJump() //button
@@ -105,22 +117,29 @@ namespace MiniGames.Sheepy
             {
                 grade = 4;
                 print("you're still my Favorite, []");
-                GameOver();
+                StartCoroutine(nameof(GameOver));
                 DeleteSheep();
             }
         }
 
         private void SheepJump()
         {
-            allSheep[0].GetComponent<Animator>().SetTrigger(0);
+            allSheep[0].GetComponent<Animator>().SetTrigger(0); //jump
             if (2 * grade >= 0)
             {
                 score += 5 - 2 * grade;
             }
         }
 
-        private void GameOver()
+        private IEnumerator GameOver()
         {
+            playerInputPanel.SetActive(false);
+            allSheep[0].GetComponent<Animator>().SetTrigger(0); //jump
+            yield return new WaitForSeconds(1f);
+            foreach (var sheep in allSheep)
+            {
+                sheep.GetComponent<Animator>().SetTrigger(2);//x_x
+            }
             pet.GetComponent<PetScript>().information.sleepy += score;
             gameOverPanel.SetActive(true);
         }
