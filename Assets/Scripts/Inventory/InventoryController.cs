@@ -15,6 +15,7 @@ public class InventoryController : MonoBehaviour
     public List<TextMeshProUGUI> text;
     public List<ItemDrag> ItemDrags;
     private int numb;
+    [SerializeField] private ItemObjects itemType;
 
     private void Start()
     {
@@ -43,7 +44,7 @@ public class InventoryController : MonoBehaviour
         
         for (int i = 0; i < Container.Count; i++)
         {
-            if (Container[i].item.type == ItemType.Food && Container[i].amount >= 1)
+            if (Container[i].item.type == itemType.type && Container[i].amount >= 1)
             {
                 ItemDrags[numb].ItemObjects = Container[i].item;
                 if (Container[i].amount >= 2) text[numb].text = "x" + Container[i].amount;
