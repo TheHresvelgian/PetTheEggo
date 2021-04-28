@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'no' Physical Memory: 16221 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16180 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,348 +11,144 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Sigrun/Documents/GitHub/PetTheEggo
+C:/Users/runeg/OneDrive/Documents/A Spill Skoleprojekt Erlend/PetTheEggo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56925
-Successfully changed project path to: C:/Users/Sigrun/Documents/GitHub/PetTheEggo
-C:/Users/Sigrun/Documents/GitHub/PetTheEggo
+53392
+Successfully changed project path to: C:/Users/runeg/OneDrive/Documents/A Spill Skoleprojekt Erlend/PetTheEggo
+C:/Users/runeg/OneDrive/Documents/A Spill Skoleprojekt Erlend/PetTheEggo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 167.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Sigrun/Documents/GitHub/PetTheEggo/Assets
+[Subsystems] Discovering subsystems at path C:/Users/runeg/OneDrive/Documents/A Spill Skoleprojekt Erlend/PetTheEggo/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
     Vendor:   
-    VRAM:     3964 MB
-    Driver:   26.21.14.3184
+    VRAM:     8090 MB
+    Driver:   27.20.100.8729
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006349 seconds.
+Registered in 0.008086 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 83.12 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 140.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.457 seconds
+- Completed reload, in  2.910 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001609 seconds.
+Registered in 0.002692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.50 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 150.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.752 seconds
+- Completed reload, in  2.595 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.7 MB.
-System memory in use after: 96.6 MB.
+Unloading 3445 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.3 MB.
+System memory in use after: 146.5 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 4.468200 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.185600 ms MarkObjects: 3.686900 ms  DeleteObjects: 0.199700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Resources/Audio/SFX/MiniGames/126415__makofox__enemy-emerge.wav
-  artifactKey: Guid(e7df5e7016f333441b37bdabca73e762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/MiniGames/126415__makofox__enemy-emerge.wav using Guid(e7df5e7016f333441b37bdabca73e762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000cec5fc0e82ecee8a8650a8f1b0eef') in 0.203683 seconds
-  Import took 0.209568 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3896.
+Total: 3.456600 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.887000 ms  DeleteObjects: 0.057400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.081434 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/EvolutionSound.wav
-  artifactKey: Guid(3a24ef12c06f5de4b8b2f22326097eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/EvolutionSound.wav using Guid(3a24ef12c06f5de4b8b2f22326097eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45212b038f343cc0d3f045cd75ed664d') in 0.015388 seconds
-  Import took 0.022314 seconds .
+  path: Assets/VFX
+  artifactKey: Guid(f1fc194bbe6c59243bb3a7d65a4fb70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX using Guid(f1fc194bbe6c59243bb3a7d65a4fb70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23ee5244e5b51793119694e2a09b98b') in 0.031163 seconds
+  Import took 0.047087 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.790234 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/EvolutionSound.wav.asd
-  artifactKey: Guid(fce96df411c1f8c48baf57e4cb02b7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/EvolutionSound.wav.asd using Guid(fce96df411c1f8c48baf57e4cb02b7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6ff7a073a4f7f1216076b9e4aafad9') in 0.009115 seconds
-  Import took 0.015698 seconds .
+  Time since last request: 30.622188 seconds.
+  path: Assets/VFX/Note Up.prefab
+  artifactKey: Guid(06ce228c0c3e7ad40a15d51289fa07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Note Up.prefab using Guid(06ce228c0c3e7ad40a15d51289fa07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0bc71771d4c9f46e4e7f70c248b761') in 0.064733 seconds
+  Import took 0.076456 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.041451 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE
-  artifactKey: Guid(7a8246ad794dec64096a9d567bb5e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE using Guid(7a8246ad794dec64096a9d567bb5e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2960755a86b7a00a57951e907795cf9d') in 0.003497 seconds
-  Import took 0.008583 seconds .
+  Time since last request: 4.560620 seconds.
+  path: Assets/VFX/Note Down.prefab
+  artifactKey: Guid(b3208c573b898404c8a9567f953ec9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Note Down.prefab using Guid(b3208c573b898404c8a9567f953ec9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc56bdcdad772d91bb30361d5eb0187') in 0.015882 seconds
+  Import took 0.026142 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.721477 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/Doesn'tWork
-  artifactKey: Guid(dd0171f1bf5bcfc4dbcc2338f11e2b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/Doesn'tWork using Guid(dd0171f1bf5bcfc4dbcc2338f11e2b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a92b164cdb3a0736b0eb59fd4612afd') in 0.009310 seconds
-  Import took 0.015964 seconds .
+  Time since last request: 10.308439 seconds.
+  path: Assets/VFX/Note Right.prefab
+  artifactKey: Guid(ab73795ac3b5a384ab46cd207bb4d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Note Right.prefab using Guid(ab73795ac3b5a384ab46cd207bb4d75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f236891b5cf2e3f5c1473dcccafda8') in 0.010155 seconds
+  Import took 0.017003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.401767 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/DanceDance/dancedance blue.wav
-  artifactKey: Guid(26915328e82d12a4693f9a8d5d408a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/DanceDance/dancedance blue.wav using Guid(26915328e82d12a4693f9a8d5d408a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67998205c208cf008abb6b6431a7eba3') in 0.014761 seconds
-  Import took 0.020651 seconds .
+  Time since last request: 3.803986 seconds.
+  path: Assets/VFX/Note Left.prefab
+  artifactKey: Guid(b67fdf665214c7c43a1df1fd023be848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Note Left.prefab using Guid(b67fdf665214c7c43a1df1fd023be848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f151b486ff9fb9aa02d829b6c4d8a337') in 0.010752 seconds
+  Import took 0.018129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.113668 seconds.
-  path: Assets/Resources/Audio/SFX
-  artifactKey: Guid(a2b8c56368c564e4c8db19b9508ce958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX using Guid(a2b8c56368c564e4c8db19b9508ce958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d7085517e3320b71690392657c8665') in 0.003728 seconds
-  Import took 0.010019 seconds .
+  Time since last request: 10.633673 seconds.
+  path: Assets/VFX/Particle System Hearts.prefab
+  artifactKey: Guid(6bcdb7816d16eff40a96735225e3389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Particle System Hearts.prefab using Guid(6bcdb7816d16eff40a96735225e3389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512b12daad2676456a70ec8a14872f22') in 0.011414 seconds
+  Import took 0.018570 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.564869 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance
-  artifactKey: Guid(68c3313415b698a43ba725cd5ab508df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance using Guid(68c3313415b698a43ba725cd5ab508df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9919a4958c792f0a8300f7db2b875e') in 0.006053 seconds
-  Import took 0.013055 seconds .
+  Time since last request: 3.704785 seconds.
+  path: Assets/VFX/Particle System Hearts 2.prefab
+  artifactKey: Guid(4ec4a30f701539d49b6c7f10d300b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Particle System Hearts 2.prefab using Guid(4ec4a30f701539d49b6c7f10d300b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4baf096e1ac7999fff72370614f931d') in 0.010503 seconds
+  Import took 0.018248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.790847 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Unedited
-  artifactKey: Guid(21ca27510d93b28438ab32a2041c4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Unedited using Guid(21ca27510d93b28438ab32a2041c4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919d49013440567567a338ab9c9a47dc') in 0.010363 seconds
-  Import took 0.017068 seconds .
+  Time since last request: 17.159478 seconds.
+  path: Assets/VFX/GameObject Sponge.prefab
+  artifactKey: Guid(561406d2ebb1a6f4e9f4cf38a82091c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/GameObject Sponge.prefab using Guid(561406d2ebb1a6f4e9f4cf38a82091c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf2f824a949e038a24f5a5f3b62cf95') in 0.012343 seconds
+  Import took 0.019784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.119536 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/DanceDance/dancedance blue2.wav
-  artifactKey: Guid(658257b7f7a51c04aa82caf252578501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/DanceDance/dancedance blue2.wav using Guid(658257b7f7a51c04aa82caf252578501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112b6dca69efa41343b47e41eec1e77c') in 0.017087 seconds
-  Import took 0.023945 seconds .
+  Time since last request: 205.714570 seconds.
+  path: Assets/ShaderTest/Shaders
+  artifactKey: Guid(163a755658e710e4f8e1e6f71c82c01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderTest/Shaders using Guid(163a755658e710e4f8e1e6f71c82c01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1920b05081315418589e35c7c221c3ad') in 0.011917 seconds
+  Import took 0.021685 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 16.909700 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance green2.wav
-  artifactKey: Guid(9b63dd63ce398644f8599765d2a566d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance green2.wav using Guid(9b63dd63ce398644f8599765d2a566d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c326d4d19d03b973ed4fb370320fef60') in 0.018221 seconds
-  Import took 0.025293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.684662 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance red2.wav
-  artifactKey: Guid(012358f1c08b0f841afbaf1d92c72a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance red2.wav using Guid(012358f1c08b0f841afbaf1d92c72a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ddbaf873b23c06d357dd49dcbbad8f') in 0.016388 seconds
-  Import took 0.024828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.268435 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance yellow2.wav
-  artifactKey: Guid(4355ecc5abbf512408f54b5da111319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Unedited/dancedance yellow2.wav using Guid(4355ecc5abbf512408f54b5da111319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df84124dee7c304bdddcd1f43c35b6b9') in 0.024825 seconds
-  Import took 0.034440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.345695 seconds.
-  path: Assets/Resources/Audio/PetTheEggoDONE/Kitchen.wav
-  artifactKey: Guid(d49731d01cf9bf64697518038b7477cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/PetTheEggoDONE/Kitchen.wav using Guid(d49731d01cf9bf64697518038b7477cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d170b6eace0678ced3ed1a92355d08') in 0.013542 seconds
-  Import took 0.019325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.213550 seconds.
-  path: Assets/Resources/Audio/Music
-  artifactKey: Guid(4336fd81b4de26340aa3ad7c91eb5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music using Guid(4336fd81b4de26340aa3ad7c91eb5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4379a57b1325855b539e824516764d3b') in 0.007004 seconds
-  Import took 0.018882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.201614 seconds.
-  path: Assets/Resources/Audio/Music/Rooms
-  artifactKey: Guid(4fe064b9f6fa2bd46b612073f670e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/Rooms using Guid(4fe064b9f6fa2bd46b612073f670e724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c235fe5f368e518a513cf1c45bd808') in 0.006093 seconds
-  Import took 0.013213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.139138 seconds.
-  path: Assets/Resources/Audio/Music/MiniGames
-  artifactKey: Guid(ca57f0c6eb7f15845a11550a48f22e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/MiniGames using Guid(ca57f0c6eb7f15845a11550a48f22e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cc02642c778d0f6ebc84e6ebb901e1') in 0.009923 seconds
-  Import took 0.016802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.376132 seconds.
-  path: Assets/Resources/Audio/Music/MiniGames/MazeGame.wav
-  artifactKey: Guid(27c86b7a3679a03489595aa4d0a3bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/MiniGames/MazeGame.wav using Guid(27c86b7a3679a03489595aa4d0a3bb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3401c01c25aaea9397c1b453da36fdf') in 0.028310 seconds
-  Import took 0.038971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.341734 seconds.
-  path: Assets/Resources/Audio/Music/MiniGames/SheepGameFin.wav
-  artifactKey: Guid(cf61202856fb9de4bac40f44c1ac232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/MiniGames/SheepGameFin.wav using Guid(cf61202856fb9de4bac40f44c1ac232a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bc4b9a7b74e4c64004bddd53f0da39') in 0.014837 seconds
-  Import took 0.022196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.195383 seconds.
-  path: Assets/Resources/Audio/Music/MiniGames/SleepFinGame.wav
-  artifactKey: Guid(419240c456ece1f41b8c1899a46bdc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/MiniGames/SleepFinGame.wav using Guid(419240c456ece1f41b8c1899a46bdc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07889eb452313aaf2051c6ea9291c98') in 0.013365 seconds
-  Import took 0.020323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7156.773465 seconds.
-  path: Assets/Resources/Audio/Music/Rooms/LivingRoom.wav
-  artifactKey: Guid(f193849b61505eb4a9bc6be1be314cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/Rooms/LivingRoom.wav using Guid(f193849b61505eb4a9bc6be1be314cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239dea21273422bf42341c040df3eb69') in 0.053196 seconds
-  Import took 0.061842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.910684 seconds.
-  path: Assets/Resources/Audio/Music/Rooms/StoreInPetTheEggo2.wav
-  artifactKey: Guid(c481c812a06e8584fa486ef53768bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Music/Rooms/StoreInPetTheEggo2.wav using Guid(c481c812a06e8584fa486ef53768bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a4c1b20bf481ea22b1772456c6e7a') in 0.037262 seconds
-  Import took 0.049086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.757833 seconds.
-  path: Assets/Resources/Audio/SFX/MiniGames
-  artifactKey: Guid(2c28a85fc395e8741b50a5f20b04705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/MiniGames using Guid(2c28a85fc395e8741b50a5f20b04705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cfda6e600947a08d929e1eb141e1f4') in 0.003569 seconds
-  Import took 0.008781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.486488 seconds.
-  path: Assets/Resources/Audio/SFX/MiniGamesTesting
-  artifactKey: Guid(2c28a85fc395e8741b50a5f20b04705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/MiniGamesTesting using Guid(2c28a85fc395e8741b50a5f20b04705d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a09fd522be885e79c8f2842195739') in 0.010353 seconds
-  Import took 0.020860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 316.199962 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Blue.wav
-  artifactKey: Guid(c2ad569711e98994bb940fa36593080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Blue.wav using Guid(c2ad569711e98994bb940fa36593080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec05ba55d0d890f6acf907535c783321') in 0.030313 seconds
-  Import took 0.041833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.494918 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Red.wav
-  artifactKey: Guid(ea017e422c7d8e2459a15db00429f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Red.wav using Guid(ea017e422c7d8e2459a15db00429f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5667b45718c7f898c2859705a4b1d16') in 0.024962 seconds
-  Import took 0.032809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.750801 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Green.wav
-  artifactKey: Guid(5d841faa8a23f4f40a266a2e146c0274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Green.wav using Guid(5d841faa8a23f4f40a266a2e146c0274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2624e0ef986d7e9a0e3ec1b7e041188') in 0.015126 seconds
-  Import took 0.022289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.618347 seconds.
-  path: Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Yellow.wav
-  artifactKey: Guid(e79fc45ce8ee7034a8c684adb981e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/SFX/DanceDance/Edited/DanceDance Yellow.wav using Guid(e79fc45ce8ee7034a8c684adb981e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c2ba444de3a13c7c4b22d2f25e29ea') in 0.029595 seconds
-  Import took 0.039520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.199441 seconds.
-  path: Assets/Scenes/Test/SigrunTestMiniGame.unity
-  artifactKey: Guid(9265bb9d11323c5468359f19261a6855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test/SigrunTestMiniGame.unity using Guid(9265bb9d11323c5468359f19261a6855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d7e7200ac7c64df82e529c3e9cef4d') in 0.010147 seconds
-  Import took 0.018390 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001965 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.098 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2096 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 3.510400 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.987900 ms  DeleteObjects: 0.138500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3161.321348 seconds.
-  path: Assets/Resources/Sprites/r1on3qey.bmp
-  artifactKey: Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Sprites/r1on3qey.bmp using Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ade0e7bf158c7e4212f394d4bb3c9f') in 0.181607 seconds
-  Import took 0.189710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008449 seconds.
-  path: Assets/Resources/Sprites/r1on3qey.bmp
-  artifactKey: Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Sprites/r1on3qey.bmp using Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ade0e7bf158c7e4212f394d4bb3c9f') in 0.027331 seconds
-  Import took 0.033515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.094033 seconds.
-  path: Assets/Resources/Sprites/Dirt.bmp
-  artifactKey: Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Sprites/Dirt.bmp using Guid(688d9b56b7d680041a05ecc95ff04d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa64732da20af37c628089ed6716b9f') in 0.035321 seconds
-  Import took 0.043324 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
