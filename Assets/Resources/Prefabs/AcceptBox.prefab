@@ -1595,5 +1595,5 @@ MonoBehaviour:
   arrows:
   - {fileID: 7215864078164852860}
   - {fileID: 7215864077279737797}
-  textCost: The cost is
+  textCost: 'The cost is '
   pos: {x: 0, y: 0, z: 0}
