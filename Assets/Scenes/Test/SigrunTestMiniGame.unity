@@ -266,10 +266,10 @@ MonoBehaviour:
   inputEnabled: 0
   gameOver: 0
   audioSource: {fileID: 1442222956}
-  clip1: {fileID: 8300000, guid: c3b3da783f58a134a8b924695bed0e00, type: 3}
-  clip2: {fileID: 8300000, guid: 2dbd6c45644ef094b8f2477b735695cd, type: 3}
-  clip3: {fileID: 8300000, guid: c3b3da783f58a134a8b924695bed0e00, type: 3}
-  clip4: {fileID: 8300000, guid: 2dbd6c45644ef094b8f2477b735695cd, type: 3}
+  clip1: {fileID: 8300000, guid: ea017e422c7d8e2459a15db00429f71d, type: 3}
+  clip2: {fileID: 8300000, guid: e79fc45ce8ee7034a8c684adb981e898, type: 3}
+  clip3: {fileID: 8300000, guid: c2ad569711e98994bb940fa36593080b, type: 3}
+  clip4: {fileID: 8300000, guid: 5d841faa8a23f4f40a266a2e146c0274, type: 3}
   maxBleeps: 2
   words:
   - Hei
