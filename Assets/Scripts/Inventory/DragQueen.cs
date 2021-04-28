@@ -1,10 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 
 public class DragQueen : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
+    private Touch _touch;
     private RectTransform _rectTransform;
     private InventoryUIManager _UiManager;
     [SerializeField] private GameObject dragManager;
@@ -33,5 +37,14 @@ public class DragQueen : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     public void OnPointerDown(PointerEventData eventData)
     {
         print("Button Down");
+    }
+
+    private void Update()
+    {
+        if (Input.touchCount > 0)
+        {
+            _touch = Input.GetTouch(0);
+            print(_touch.position);
+        }
     }
 }

@@ -7,12 +7,13 @@ using UnityEngine;
         [SerializeField] private float moveTime;
         [SerializeField] private List<GameObject> uiGameObjects;
         [SerializeField] private List<GameObject> uiButtons;
+        [SerializeField] public List<GameObject> uiTurnOffDragItem;
 
         public string curentMenu = "Guardan";
         [SerializeField] private GameObject LivingRoomButtons;
         [SerializeField] private GameObject CreatureController;
         public bool draged;
-        [SerializeField] public bool open;
+        public bool open;
         private Vector3 moveTowards = new Vector3(-20f, 0, 0);
         private Vector3 moveSpeed = Vector3.one;
         private Vector3 SmoothDamp;
@@ -44,7 +45,6 @@ using UnityEngine;
              {
                  button.SetActive(button.name != buttonName);
              }
-             
         }
 
         public void CloseUI()
@@ -92,7 +92,7 @@ using UnityEngine;
 
         private void Movement()
         {
-            SmoothDamp = Vector3.SmoothDamp(transform.localPosition, new Vector3(moveTowards.x + 20f, moveTowards.y, moveTowards.z), ref moveSpeed, moveTime);
+            SmoothDamp = Vector3.SmoothDamp(transform.localPosition, new Vector3(moveTowards.x + 10f, moveTowards.y, moveTowards.z), ref moveSpeed, moveTime);
             transform.localPosition = SmoothDamp;
         }
     }

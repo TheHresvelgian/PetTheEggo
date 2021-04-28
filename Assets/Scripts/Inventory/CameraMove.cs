@@ -18,10 +18,8 @@ public class CameraMove : MonoBehaviour
         MovePos = new Vector3(-23,0,-10f);
     }
 
-    public void BackButton()
-    {
-        MovePos = new Vector3(-23, MovePos.y, MovePos.z);
-    }
+    public void BackButton() => MovePos = new Vector3(-23, MovePos.y, MovePos.z);
+    public void MarkusButton() => MovePos = new Vector3(-46, MovePos.y, MovePos.z);
     public void MoveCamera(float pos)
     {
         MovePos = new Vector3(0,pos,-10f);

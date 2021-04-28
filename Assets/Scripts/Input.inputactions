@@ -19,12 +19,20 @@
                     "id": "28f1d5e9-318f-4352-a8c2-24d751caa78f",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=1)"
+                    "interactions": ""
                 },
                 {
                     "name": "Look",
                     "type": "Value",
                     "id": "0aba1de3-e448-4b5d-857b-4dbfe96a9cc5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MousePos",
+                    "type": "PassThrough",
+                    "id": "10753497-1724-4cda-b9ce-6527f5ba1d75",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
@@ -57,7 +65,7 @@
                     "name": "",
                     "id": "61bce7a4-c345-4214-8059-54df386c7195",
                     "path": "<Touchscreen>/press",
-                    "interactions": "",
+                    "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": "Touchscreen",
                     "action": "MouseUp1",
@@ -68,7 +76,7 @@
                     "name": "",
                     "id": "818e60a1-b556-4c79-b169-cc3f0ececac8",
                     "path": "<Mouse>/leftButton",
-                    "interactions": "",
+                    "interactions": "Press(behavior=1)",
                     "processors": "",
                     "groups": "Keyboard & Mouse",
                     "action": "MouseUp1",
@@ -94,6 +102,17 @@
                     "processors": "",
                     "groups": "Touchscreen",
                     "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6be34bf5-491b-4aea-b9db-ae243adef280",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard & Mouse;Touchscreen",
+                    "action": "MousePos",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
