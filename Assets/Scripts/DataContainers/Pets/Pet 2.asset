@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pet 2
   m_EditorClassIdentifier: 
   petName: Patootie
-  petSprite: {fileID: 21300000, guid: ecd7394ca17ee9b48a52d94d3c9917b9, type: 3}
+  petSprite: {fileID: 21300000, guid: 481b3bca49a7443428e4e8d67783d54c, type: 3}
   growthStage: 1
   creatureType: 1
   love: 69
@@ -21,3 +21,4 @@ MonoBehaviour:
   hunger: 76
   sleepy: 74
   growthPercent: 4
+  leavePercent: 0

@@ -8,11 +8,15 @@ namespace Pets
     public class PetScript : MonoBehaviour
     {
         public SpriteRenderer _spriteRenderer;
-        public PetScrubBase information { get; private set; }
+        [SerializeField] public PetScrubBase information;
         [SerializeField] private BaiBitch baiBitch;
+        
         private String _petName;
         private int _growthStage; //0 is egg, 1 is kid, 2 is adult
         private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
+
+        private Sprite _sprite;
+        [SerializeField] private SpriteList spriteList;
     
         private int _love;
         private int _isLoving; //-1 is bad (20 or less), 0 is normal (21-50), +1 is good (51-80), +2 is awesome (81-100)
@@ -43,6 +47,63 @@ namespace Pets
             _spriteRenderer = GetComponent<SpriteRenderer>();
 
             baiBitch = GetComponent<BaiBitch>();
+
+            if (information.creatureType == 0)
+            {
+                switch (information.growthStage)
+                {
+                    case 0:
+                        _sprite = spriteList.mochiEgg;
+                        break;
+                    case 1:
+                        _sprite = spriteList.mochiKid;
+                        break;
+                    case 2:
+                        _sprite = spriteList.mochiAdult;
+                        break;
+                    default:
+                        print("fuck");
+                        break;
+                }
+            }
+            else if (information.creatureType == 1)
+            {
+                switch (information.growthStage)
+                {
+                    case 0:
+                        _sprite = spriteList.lilmaEgg;
+                        break;
+                    case 1:
+                        _sprite = spriteList.lilmaKid;
+                        break;
+                    case 2:
+                        _sprite = spriteList.lilmaAdult;
+                        break;
+                    default:
+                        print("fuck");
+                        break;
+                }
+            }
+            else if (information.creatureType == 2)
+            {
+                switch (information.growthStage)
+                {
+                    case 0:
+                        _sprite = spriteList.nyodleEgg;
+                        break;
+                    case 1:
+                        _sprite = spriteList.nyodleKid;
+                        break;
+                    case 2:
+                        _sprite = spriteList.nyodleAdult;
+                        break;
+                    default:
+                        print("fuck");
+                        break;
+                }
+            }
+
+            information.petSprite = _sprite;
 
             _spriteRenderer.sprite = information.petSprite;
 

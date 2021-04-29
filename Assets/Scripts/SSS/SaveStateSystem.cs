@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization.Formatters.Binary;
 using DataContainers;
 
@@ -9,7 +10,7 @@ namespace SSS
 {
     public static class SaveStateSystem
     {
-        private static String _dataPath = Path.Combine(Application.persistentDataPath + "/player.fun");
+        public static String _dataPath = Path.Combine(Application.persistentDataPath + "/player.fun");
 
         public static void SavePlayer(Save thePlayerData)
         {

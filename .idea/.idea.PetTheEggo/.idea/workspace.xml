@@ -1,7 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c01fcde-acac-4ba6-9648-1f25ea2a9cf5" name="Default Changelist" comment="" />
+    <list default="true" id="1c01fcde-acac-4ba6-9648-1f25ea2a9cf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ButtonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ButtonController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChatScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChatScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoinCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoinCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ItemImageScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ItemImageScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NumbSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NumbSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/shopkeeper_markus_idle_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/shopkeeper_markus_idle_1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/AcceptBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/AcceptBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Angwy/AngwyNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Asleep/AsleepNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Happy/HappyNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Normal/NormalNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Pleased/PleasedNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sad/SadNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Adult/Sleepy/SleepyNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AngryBBY/AngryBbyNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/AsleepBBY/AsleepBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/HappyBBY/HappyBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/NormalBBY/NormalBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/PleasedBBY/PleasedBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SadBBY/SadBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYLilma.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYLilma.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYMochi.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYMochi.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYNyodle.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/BBY/SleepyBBY/SleepyBBYNyodle.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/LilmaEgg.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/LilmaEgg.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/MochiEgg.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/MochiEgg.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/NyodleEgg.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/NyodleEgg.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze Levels/MazeEasy1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze Levels/MazeEasy1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pet 3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Aple.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Aple.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Cake.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Cake.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Juice.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Juice.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Pizza.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Pizza.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SSS/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SSS/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SSS/Save.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SSS/Save.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SSS/SaveStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SSS/SaveStateSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SelfDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SelfDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPos.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPos.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPos2Elec.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopPos2Elec.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopTabButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShopTabButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TurnOffUIonDrag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TurnOffUIonDrag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +112,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NumbSelect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSystems/FirstTime.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/VFXmouseFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/FollowMouseVFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/DragItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/ShopPos.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/SelfDestroy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SSS/PlayerData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SSS/SaveStateSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DataContainers/PetScrubBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameSystems/FirstTime.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SSS/Save.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qpjjtW2NYmNHPqMP8WxYKGzInF" />
@@ -63,6 +174,7 @@
       <workItem from="1617783575552" duration="2076000" />
       <workItem from="1617797302102" duration="1242000" />
       <workItem from="1619438386168" duration="13000" />
+      <workItem from="1619686922263" duration="8679000" />
     </task>
     <servers />
   </component>
@@ -71,6 +183,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

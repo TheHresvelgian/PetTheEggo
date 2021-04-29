@@ -16,5 +16,5 @@ MonoBehaviour:
   cost: 5
   prefab: {fileID: 0}
   type: 0
-  description: 
+  description: "It\u2019s an apple... not like the phone, but you know, the fruit."
   foodValue: 0

@@ -21,11 +21,17 @@ public class DragItem : MonoBehaviour
     [SerializeField] private float smoothTime = 0.3f;
     private void Start()
     {
-        movePos = transform.position;
+        StartCoroutine("MovePos");
         cam = FindObjectOfType<Camera>();
         GetComponent<SpriteRenderer>().sprite = ItemObjects.sprite;
         
         pressControll.GetComponent<TurnOffUIonDrag>().itemDrag = gameObject;
+    }
+
+    private IEnumerator MovePos()
+    {
+        yield return new WaitForSeconds(0.1f);
+        movePos = transform.position;
     }
 
     private void Update()

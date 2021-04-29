@@ -1,3 +1,4 @@
+using System.IO;
 using DataContainers;
 using UnityEngine;
 
@@ -14,6 +15,11 @@ namespace SSS
         public void SavePlayer()
         {
             SaveStateSystem.SavePlayer(this);
+        }
+
+        public void DeleteSaveData()
+        {
+            File.Delete(SaveStateSystem._dataPath);
         }
 
         public void LoadPlayer()
@@ -51,6 +57,10 @@ namespace SSS
             savePet1.growthPercent = data.growthPercentages[0];
             savePet2.growthPercent = data.growthPercentages[1];
             savePet3.growthPercent = data.growthPercentages[2];
+
+            savePet1.leavePercent = data.leavePercentages[0];
+            savePet2.leavePercent = data.leavePercentages[1];
+            savePet3.leavePercent = data.leavePercentages[2];
 
         }
     }

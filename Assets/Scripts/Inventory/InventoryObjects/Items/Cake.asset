@@ -16,5 +16,6 @@ MonoBehaviour:
   cost: 40
   prefab: {fileID: 0}
   type: 0
-  description: 
+  description: "Homemade & gluten free! I would give you the recipe, but I promised
+    grandma I wouldn\u2019t"
   foodValue: 0

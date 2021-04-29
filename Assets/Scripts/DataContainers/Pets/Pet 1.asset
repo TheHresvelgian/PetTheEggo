@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pet 1
   m_EditorClassIdentifier: 
   petName: Bab
-  petSprite: {fileID: 21300000, guid: 8be0d8e99cec3a244a35c4413edb2be7, type: 3}
+  petSprite: {fileID: 21300000, guid: 008ce9c32ff028d4db6c0f5f4cbf1dd5, type: 3}
   growthStage: 2
   creatureType: 0
   love: 63
@@ -21,3 +21,4 @@ MonoBehaviour:
   hunger: 24
   sleepy: 21
   growthPercent: 23
+  leavePercent: 0
