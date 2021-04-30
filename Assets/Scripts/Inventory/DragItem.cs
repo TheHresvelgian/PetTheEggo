@@ -51,6 +51,7 @@ public class DragItem : MonoBehaviour
                 {
                     ItemValue = itm.CleanValue;
                     gameObject.tag = "Soap";
+                    transform.GetChild(0).gameObject.SetActive(true);
                     break;
                 }
             }

@@ -5,26 +5,15 @@ namespace MiniGames
     public class MazePlayerControls : MonoBehaviour
     {
         [SerializeField] private float moveSpeed;
-        //[SerializeField] private float rotateSpeed;
+
         [SerializeField] private Transform movePoint;
         
         [SerializeField] private LayerMask stopMovement;
 
         [SerializeField] private GameObject buttonPanel;
-
-        //[SerializeField] private Camera mainCamera;
         
-      //  [SerializeField] private Quaternion leftRotate;
-        //[SerializeField] private Quaternion rightRotate;
-        //[SerializeField] private Quaternion upRotate;
-
-        //[SerializeField] private int whichRotatePosition; //0 facing up, 1 facing left, 2 facing right
         [SerializeField] private float moveDistance;
-        [SerializeField] private Vector3 moveUpValue;
-        [SerializeField] private Vector3 moveLeftValue;
-        [SerializeField] private Vector3 moveRightValue;
-
-        //[SerializeField] private Vector3 cameraUp = new Vector3(0,0,0);
+        
         [SerializeField] private Vector3 cameraLeft = new Vector3(0,0,90);
         [SerializeField] private Vector3 cameraRight = new Vector3(0, 0, -90);
 
@@ -32,44 +21,7 @@ namespace MiniGames
 
         private void FixedUpdate()
         {
-            var transformEulerAngles = transform.eulerAngles;
-            eulerAsInt = Mathf.FloorToInt(transformEulerAngles.z);
             transform.position = Vector3.MoveTowards(transform.position,movePoint.position,moveSpeed * Time.deltaTime);
-            if (transformEulerAngles.z >= 360f)
-            {
-                transformEulerAngles.z -= 360f;
-            }
-            else if (transformEulerAngles.z < 0f)
-            {
-                transformEulerAngles.z += 360f;
-            }
-            switch (eulerAsInt)
-            {
-                case 0:
-                    moveUpValue = new Vector3(0, moveDistance,0);
-                    moveLeftValue = new Vector3(-moveDistance, 0,0);
-                    moveRightValue = new Vector3(moveDistance, 0,0);
-                    //mainCamera.transform.eulerAngles += cameraUp;
-                    break;
-                case 90:
-                    moveUpValue = new Vector3(-moveDistance,0,0);
-                    moveLeftValue = new Vector3(0,-moveDistance,0);
-                    moveRightValue = new Vector3(0,moveDistance,0);
-                    break;
-                case 180:
-                    moveUpValue = new Vector3(0,-moveDistance, 0);
-                    moveLeftValue = new Vector3(moveDistance,0,0);
-                    moveRightValue = new Vector3(-moveDistance, 0,0);
-                    break;
-                case 270:
-                    moveUpValue = new Vector3(moveDistance, 0, 0);
-                    moveLeftValue = new Vector3(0,moveDistance,0);
-                    moveRightValue = new Vector3(0,-moveDistance,0);
-                    break;
-                default:
-                    print("fuck");
-                    break;
-            }
 
             if (Vector3.Distance(transform.position,movePoint.position) <= 0.05f)
             {
@@ -79,28 +31,19 @@ namespace MiniGames
 
         public void MoveLeft()
         {
-           // transform.rotation = Quaternion.RotateTowards(transform.rotation,leftRotate, rotateSpeed * Time.deltaTime);
-           Move(moveLeftValue);
-           //whichRotatePosition = 1;
-           //mainCamera.transform.eulerAngles += cameraLeft;
-           transform.eulerAngles += cameraLeft;
+            Move(new Vector3(-1,0,0));
+            transform.eulerAngles += cameraLeft;
         }
 
         public void MoveRight()
         {
-           // transform.rotation = Quaternion.RotateTowards(transform.rotation,rightRotate, rotateSpeed * Time.deltaTime);
-           Move(moveRightValue);
-           //whichRotatePosition = 2;
-           //mainCamera.transform.eulerAngles += cameraRight;
+            Move(new Vector3(1,0,0));
            transform.eulerAngles += cameraRight;
         }
 
-        public void MoveUp()
-        {
-            //  transform.rotation = Quaternion.RotateTowards(transform.rotation,upRotate, rotateSpeed * Time.deltaTime);
-          Move(moveUpValue);
-          //whichRotatePosition = 0;
-        }
+        public void MoveUp() => Move(new Vector3(0,1,0));
+
+            public void MoveDown() => Move(new Vector3(0, 1, 0));
 
         public void Move(Vector3 move)
         {

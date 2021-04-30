@@ -1,5 +1,4 @@
 using System;
-using DataContainers;
 
 namespace SSS
 {
@@ -22,11 +21,13 @@ namespace SSS
         public int[] sleepies;
         public int[] growthPercentages;
         public int[] leavePercentages;
+
+        public int[] playerInventory;
+        public int[] shopInventory;
+        
         
         public PlayerData(Save theData)
         {
-            //pets = new PetScrubBase[3];
-
             names = new String[3];
             growthStages = new int[3];
             creatureTypes = new int[3];
@@ -37,6 +38,8 @@ namespace SSS
             sleepies = new int[3];
             growthPercentages = new int[3];
             leavePercentages = new int[3];
+
+            playerInventory = new int[12];
 
             names[0] = theData.savePet1.petName;
             names[1] = theData.savePet2.petName;
@@ -74,24 +77,22 @@ namespace SSS
             leavePercentages[1] = theData.savePet2.leavePercent;
             leavePercentages[2] = theData.savePet3.leavePercent;
 
-            /*pets[0] = theData.savePet1;
-            pets[1] = theData.savePet2;
-            pets[2] = theData.savePet3;
-            
+            playerInventory[0] = theData.playerInventory.Container[0].amount;
+            playerInventory[1] = theData.playerInventory.Container[1].amount;
+            playerInventory[2] = theData.playerInventory.Container[2].amount;
+            playerInventory[3] = theData.playerInventory.Container[3].amount;
+            playerInventory[4] = theData.playerInventory.Container[4].amount;
+            playerInventory[5] = theData.playerInventory.Container[5].amount;
+            playerInventory[6] = theData.playerInventory.Container[6].amount;
+            playerInventory[7] = theData.playerInventory.Container[7].amount;
+            playerInventory[8] = theData.playerInventory.Container[8].amount;
+            playerInventory[9] = theData.playerInventory.Container[9].amount;
+            playerInventory[10] = theData.playerInventory.Container[10].amount;
+            playerInventory[11] = theData.playerInventory.Container[11].amount;
 
-            for (int i = 0; i < pets.Length; i++)
-            {
-                names[i] = pets[i].petName;
-                growthStages[i] = pets[i].growthStage;
-                creatureTypes[i] = pets[i].creatureType;
-
-                loves[i] = pets[i].love;
-                cleans[i] = pets[i].clean;
-                hungers[i] = pets[i].hunger;
-                sleepies[i] = pets[i].sleepy;
-            }*/
-
-            //inventory
+            shopInventory[0] = theData.shopInventory.Container[0].amount;
+            shopInventory[1] = theData.shopInventory.Container[1].amount;
+            shopInventory[2] = theData.shopInventory.Container[2].amount;
         }
     }
 }

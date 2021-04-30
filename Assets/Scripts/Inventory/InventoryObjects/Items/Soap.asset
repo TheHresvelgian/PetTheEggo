@@ -16,4 +16,5 @@ MonoBehaviour:
   cost: 25
   prefab: {fileID: 0}
   type: 1
-  description: 
+  description: Slippery
+  CleanValue: 25

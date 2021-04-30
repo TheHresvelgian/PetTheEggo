@@ -1521,7 +1521,7 @@
     "m_Guid": {
         "m_GuidSerialized": "4b53ddb8-3934-4f14-b91a-bfd8e65f5b27"
     },
-    "m_Name": "Dirt Alpha",
+    "m_Name": "_DirtAlpha",
     "m_DefaultReferenceName": "Vector1_a1d20084c502438f8501941b48084615",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2033,7 +2033,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "eb77a8ca31454443b9fd57e64ed75918",
     "m_Id": 0,
-    "m_DisplayName": "Dirt Alpha",
+    "m_DisplayName": "_DirtAlpha",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

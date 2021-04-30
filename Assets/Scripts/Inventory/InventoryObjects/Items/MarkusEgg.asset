@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d7e3ff0a1fa924bbb60fceb1a01326, type: 3}
   m_Name: MarkusEgg
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 07a9eac5fbc51d6458cfd14861798f3b, type: 3}
+  sprite: {fileID: 21300000, guid: 0298a7dc0854e9c409465826352da814, type: 3}
   cost: 999
   prefab: {fileID: 0}
   type: 4
   description: The Markus egg, it is to powerfull
+  PetScrubBase: {fileID: 0}

@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870cc87fdbd35d24087aee9bcaad25cb, type: 3}
   m_Name: Pet 1
   m_EditorClassIdentifier: 
-  petName: Bab
-  petSprite: {fileID: 21300000, guid: ed0ddcf74970c354b8da213d57148a96, type: 3}
+  petName: Fren
+  petSprite: {fileID: 21300000, guid: a3a3576a53e123548b55b305b4111d79, type: 3}
   growthStage: 0
   creatureType: 0
-  love: 63
-  clean: 184
-  hunger: 24
-  sleepy: 21
-  growthPercent: 23
+  love: 0
+  clean: 0
+  hunger: 0
+  sleepy: 0
+  growthPercent: 0
   leavePercent: 0

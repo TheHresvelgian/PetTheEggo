@@ -565,7 +565,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7215864077280157317}
         m_TargetAssemblyTypeName: SelfDestroy, Assembly-CSharp
-        m_MethodName: Destroy
+        m_MethodName: No
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -761,6 +761,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722a02140d17f5f4982ee8e1ba4c44b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playOnStart:
+  - {fileID: 8300000, guid: 5542ed07fdc1f474d9521926789ebd15, type: 3}
+  - {fileID: 8300000, guid: 5ceb3462641d8eb4dad579cfc0c0e0fb, type: 3}
+  - {fileID: 8300000, guid: 0442cecd0b786cb4eb88e2c3e3b19147, type: 3}
+  - {fileID: 8300000, guid: 46930b4fa901a414ebb4e74276319216, type: 3}
+  - {fileID: 8300000, guid: b024e191f2cb5804498c91bfc3fa4213, type: 3}
+  - {fileID: 8300000, guid: 6f26bd4cd03001a41b49597c73fd08af, type: 3}
+  - {fileID: 8300000, guid: 583cb360294825c4fa0e9daf71bedf2f, type: 3}
+  - {fileID: 8300000, guid: 6878d8f8084d3594a931e42d828bf071, type: 3}
+  - {fileID: 8300000, guid: b0e9c22d1126fd64dbfdc62f4bca7b51, type: 3}
+  - {fileID: 8300000, guid: 8ac2f229500c6df419f58d519dc3fd5e, type: 3}
+  playOnYes:
+  - {fileID: 8300000, guid: dbced71bd330b8846b6a539344850d48, type: 3}
+  - {fileID: 8300000, guid: 48e49ead159967e4580439d187d57f89, type: 3}
+  - {fileID: 8300000, guid: 943af932571183546b5a72548497b7ea, type: 3}
+  - {fileID: 8300000, guid: e866ee3251f79ce4399da8317125c58e, type: 3}
+  - {fileID: 8300000, guid: be8d88dd741b98e409cc67c073314cd4, type: 3}
+  - {fileID: 8300000, guid: c90f835815197864eb09d82c6a2ba416, type: 3}
+  - {fileID: 8300000, guid: 520740731205fae478537e14f144a4e5, type: 3}
+  - {fileID: 8300000, guid: 3b6078407574bcb45b446725e478f088, type: 3}
+  playOnNo:
+  - {fileID: 8300000, guid: ecb89a2dd7ef8f34aa4ebd726dc2abe7, type: 3}
+  - {fileID: 8300000, guid: 3a3e9d744c8978b4383a7cb9680e0509, type: 3}
+  - {fileID: 8300000, guid: b3386a594857d154e94ee38940d26566, type: 3}
+  - {fileID: 8300000, guid: 579eac0940a751e4cac48444868d95d5, type: 3}
+  - {fileID: 8300000, guid: 1aad06f81e53e934fa7f4a50b13e16b4, type: 3}
+  - {fileID: 8300000, guid: f8ba588fb0d7dcd4592cfa7e8f17b08b, type: 3}
+  - {fileID: 8300000, guid: 94757d3a966662b4ab3c730c9fc7fc2d, type: 3}
 --- !u!1 &7215864077722261082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +1057,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 7215864077280157317}
         m_TargetAssemblyTypeName: SelfDestroy, Assembly-CSharp
-        m_MethodName: Destroy
+        m_MethodName: Yes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

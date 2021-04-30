@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870cc87fdbd35d24087aee9bcaad25cb, type: 3}
   m_Name: Pet 3
   m_EditorClassIdentifier: 
-  petName: Snek
-  petSprite: {fileID: 21300000, guid: 8497bab34f4c3c64caac3bd2d49ed3fe, type: 3}
+  petName: Koya
+  petSprite: {fileID: 21300000, guid: 88eed77af4cab8e47879eb51c8d3a879, type: 3}
   growthStage: 0
   creatureType: 2
-  love: 98
-  clean: 87
-  hunger: 56
-  sleepy: 87
-  growthPercent: 32
+  love: 0
+  clean: 100
+  hunger: 100
+  sleepy: 0
+  growthPercent: 0
   leavePercent: 0

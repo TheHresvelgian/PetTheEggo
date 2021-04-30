@@ -71,7 +71,6 @@ namespace Pets
                 _spriteRenderer.sprite = spriteList.basket;
                 return;
             }
-            print("Got this far");
             if (information.creatureType == 0)
             {
                 switch (information.growthStage)
@@ -92,7 +91,6 @@ namespace Pets
             }
             else if (information.creatureType == 1)
             {
-                print("Is lilma");
                 switch (information.growthStage)
                 {
                     case 0:

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class ButtonController : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class ButtonController : MonoBehaviour
     [SerializeField] public List<GameObject> ButtonsTurnOff;
     public List<Animator> textBoxAnim;
     [SerializeField] private GameObject shopCover;
+    [SerializeField] private List<AudioClip> ShopEnter;
+    //Ja det er Musick
+    [SerializeField] private AudioSource backgroundMusic;
+    [SerializeField] private AudioClip ShopMusick;
+    [SerializeField] private AudioClip NormalMusick;
 
     private void Start()
     {
@@ -18,8 +24,21 @@ public class ButtonController : MonoBehaviour
         }
         ShopButtonsOff();
     }
-    
-    public void ShopButtonsOn() => StartCoroutine("ShopOn");
+
+    public void ShopButtonsOn()
+    {
+        StartCoroutine("ShopOn");
+        NormalVoiceClip();
+        backgroundMusic.clip = ShopMusick;
+        backgroundMusic.Play();
+    }
+
+    public void NormalMusickPlayer()
+    {
+        backgroundMusic.clip = NormalMusick;
+        backgroundMusic.Play();
+    }
+    public void NormalVoiceClip() => FindObjectOfType<Camera>().GetComponent<AudioSource>().PlayOneShot(ShopEnter[Random.Range(0, ShopEnter.Count - 1)]);
     private IEnumerator ShopOn()
     {
         yield return new WaitForSeconds(0.5f);

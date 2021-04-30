@@ -51,6 +51,7 @@ public class ConsumeScript : MonoBehaviour
         var spriteBefore = GetComponent<PetScript>().spriteList;
         GetComponent<PetScript>().spriteList = GetComponent<PetScript>().happy;
         GetComponent<PetScript>().Start();
+        transform.GetChild(0).GetComponent<ParticleSystem>().Play();
         yield return new WaitForSeconds(2f);
         GetComponent<PetScript>().spriteList = spriteBefore;
         GetComponent<PetScript>().Start();

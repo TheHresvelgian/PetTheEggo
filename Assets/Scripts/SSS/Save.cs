@@ -10,6 +10,9 @@ namespace SSS
         public PetScrubBase savePet1;
         public PetScrubBase savePet2;
         public PetScrubBase savePet3;
+
+        public InventoryObject playerInventory;
+        public InventoryObject shopInventory;
         
         
         public void SavePlayer()
@@ -62,6 +65,22 @@ namespace SSS
             savePet2.leavePercent = data.leavePercentages[1];
             savePet3.leavePercent = data.leavePercentages[2];
 
+            playerInventory.Container[0].amount = data.playerInventory[0];
+            playerInventory.Container[1].amount = data.playerInventory[1];
+            playerInventory.Container[2].amount = data.playerInventory[2];
+            playerInventory.Container[3].amount = data.playerInventory[3];
+            playerInventory.Container[4].amount = data.playerInventory[4];
+            playerInventory.Container[5].amount = data.playerInventory[5];
+            playerInventory.Container[6].amount = data.playerInventory[6];
+            playerInventory.Container[7].amount = data.playerInventory[7];
+            playerInventory.Container[8].amount = data.playerInventory[8];
+            playerInventory.Container[9].amount = data.playerInventory[9];
+            playerInventory.Container[10].amount = data.playerInventory[10];
+            playerInventory.Container[11].amount = data.playerInventory[11];
+
+            shopInventory.Container[0].amount = data.shopInventory[0];
+            shopInventory.Container[1].amount = data.shopInventory[1];
+            shopInventory.Container[2].amount = data.shopInventory[2];
         }
     }
 }

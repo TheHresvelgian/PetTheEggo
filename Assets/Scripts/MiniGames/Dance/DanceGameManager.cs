@@ -9,6 +9,8 @@ namespace MiniGames.Dance
     {
 
         [SerializeField] private DanceGameMenu danceGameMenu;
+
+        [SerializeField] private Sprite button;
         
         public GameObject gameButtonPrefab;
 
@@ -39,6 +41,11 @@ namespace MiniGames.Dance
         [SerializeField] private string[] words;
         private string theWord;
 
+        [SerializeField] private Vector3 position1;
+        [SerializeField] private Vector3 position2;
+        [SerializeField] private Vector3 position3;
+        [SerializeField] private Vector3 position4;
+
 
         private void Update()
         {
@@ -53,10 +60,10 @@ namespace MiniGames.Dance
             theWord = words[Random.Range(0,words.Length)];
             gameButtons = new List<GameObject>();
 
-            CreateGameButton(0, new Vector3(-64, 64));
-            CreateGameButton(1, new Vector3(64, 64));
-            CreateGameButton(2, new Vector3(-64, -64));
-            CreateGameButton(3, new Vector3(64, -64));
+            CreateGameButton(0, position1);
+            CreateGameButton(1, position2);
+            CreateGameButton(2, position3);
+            CreateGameButton(3, position4);
 
             StartCoroutine(SimonSays());
         }
@@ -66,7 +73,7 @@ namespace MiniGames.Dance
 
             gameButton.transform.SetParent(gameFieldPanelTransform);
             gameButton.transform.localPosition = position;
-
+            gameButton.GetComponent<Image>().sprite = button;
             gameButton.GetComponent<Image>().color = buttonSettings[index].normalColor;
             gameButton.GetComponent<Button>().onClick.AddListener(() => {
                 OnGameButtonClick(index);
