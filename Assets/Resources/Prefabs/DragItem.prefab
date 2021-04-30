@@ -101,6 +101,16 @@ MonoBehaviour:
   playerInv: {fileID: 11400000, guid: 1ba52957f7f691249b18affb3a0ae2e3, type: 2}
   pressControll: {fileID: 4677318039048408460, guid: 70df31d1e05e94840bf19a3bd2e68425, type: 3}
   smoothTime: 0.5
+  _soapObjectsList:
+  - {fileID: 11400000, guid: a808a7a94ba200e4482da6822a5a9ea6, type: 2}
+  - {fileID: 11400000, guid: 019b3abcc9169d446b98ff50a2ba2fdf, type: 2}
+  _foodObjectsList:
+  - {fileID: 11400000, guid: f9fabe63c60cfee48b1910352c64c255, type: 2}
+  - {fileID: 11400000, guid: 9d948aeb0e7882d4f87a4356d6e838c3, type: 2}
+  - {fileID: 11400000, guid: 50fe349e54a5cef4eacc43665bceae9a, type: 2}
+  - {fileID: 11400000, guid: 33a310634d7af85419b2a4125af0da06, type: 2}
+  ItemValue: 0
+  tuch: 0
 --- !u!61 &162292399311854470
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111,7 +121,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

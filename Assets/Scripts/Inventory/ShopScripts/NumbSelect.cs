@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Inventory.InventoryObjects;
 using NUnit.Framework.Internal.Execution;
 using TMPro;
 using UnityEditor.UIElements;
@@ -11,6 +12,7 @@ using UnityEngine.UI;
 public class NumbSelect : MonoBehaviour
 {
     [SerializeField] public InventoryObject playerInv;
+    [SerializeField] private InventoryObject ShopInv;
     [SerializeField] public ItemObjects item;
     private int num = 1;
     public int maxAmount = 4;
@@ -22,9 +24,11 @@ public class NumbSelect : MonoBehaviour
     private Vector3 itemPos;
     [SerializeField] private string textCost;
     public Vector3 pos;
+    private GameObject namePanel;
 
     private void Start()
     {
+        
         transform.parent.GetChild(5).GetComponent<ItemImageScript>().Startup(item.sprite, pos);
         descriptionText = transform.parent.GetChild(4).GetChild(0).GetComponent<TextMeshProUGUI>();
         descriptionText.text = item.description;
@@ -68,6 +72,13 @@ public class NumbSelect : MonoBehaviour
     {
         playerInv.Container[0].amount -= totalCost;
         playerInv.AddItem(item, num);
+        if (maxAmount == 1)
+        {
+            namePanel = GameObject.FindGameObjectWithTag("NamePanel").transform.GetChild(0).gameObject;
+            ShopInv.AddItem(item, -1);
+            namePanel.SetActive(true);
+            namePanel.GetComponent<NameSelectScript>().Item = item;
+        }
     }
     
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Pet 1
   m_EditorClassIdentifier: 
   petName: Bab
-  petSprite: {fileID: 21300000, guid: 008ce9c32ff028d4db6c0f5f4cbf1dd5, type: 3}
-  growthStage: 2
+  petSprite: {fileID: 21300000, guid: ed0ddcf74970c354b8da213d57148a96, type: 3}
+  growthStage: 0
   creatureType: 0
   love: 63
   clean: 184

@@ -53,7 +53,7 @@ public class ItemDrag : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         InstatObj.GetComponent<DragItem>().pressControll = pressControler;
         playerInv.AddItem(ItemObjects, -1);
         
-        pressControler.GetComponent<TurnOffUIonDrag>().turnOffList = turnOffList;
+        //pressControler.GetComponent<TurnOffUIonDrag>().turnOffList = turnOffList;
         pressControler.GetComponent<TurnOffUIonDrag>().TurnOfList();
         pressControler.GetComponent<TurnOffUIonDrag>().active = true;
         //turnOffList.Clear();

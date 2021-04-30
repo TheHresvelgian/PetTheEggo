@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Pets;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -16,8 +17,9 @@ public class CreatureController : MonoBehaviour
     private int counter = 0;
     private int selectAnim;
     
-    private void Start()
+    public void Start()
     {
+        selectedPet = transform.GetChild(0).gameObject;
         foreach (Transform child in transform)
         {
             if(child.GetComponent<Animator>() != null) creatures.Add(child.gameObject);
@@ -40,6 +42,14 @@ public class CreatureController : MonoBehaviour
                 counter = 0;
             }
         }
+
+        StartCoroutine("delayStart");
+    }
+
+    private IEnumerator delayStart()
+    {
+        yield return new WaitForSeconds(0.1f);
+        SelectCheck();
     }
     public void RotateLeft()
     {
@@ -55,6 +65,7 @@ public class CreatureController : MonoBehaviour
                 selectAnim = i;
             }
         }
+        SelectCheck();
     }
     public void RotateRight()
     {
@@ -70,7 +81,11 @@ public class CreatureController : MonoBehaviour
                 selectAnim = i;
             }
         }
+        SelectCheck();
     }
+
+    private void SelectCheck() => LivingroomUIButtons.transform.GetChild(2).gameObject.SetActive(selectedPet.GetComponent<PetScript>()._play);
+    
     public void SelectPet()
     {
         var cam = FindObjectOfType<Camera>();
@@ -86,5 +101,14 @@ public class CreatureController : MonoBehaviour
     {
         selectedPet.transform.parent = this.transform;
         selectedPet.GetComponent<Animator>().enabled = true;
+    }
+
+    public void ExitButton()
+    {
+        foreach (var creature in creatures)
+        {
+            creature.GetComponent<PetScript>().Start();
+            StartCoroutine("delayStart");
+        }
     }
 }

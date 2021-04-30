@@ -4,27 +4,27 @@ using UnityEngine;
 
 public class TurnOffUIonDrag : MonoBehaviour
 {
-    public List<Transform> turnOffList;
+    //public List<Transform> turnOffList;
     public GameObject itemDrag;
     public bool active;
 
     public void TurnOfList()
     {
-        foreach (var obj in turnOffList)
+        /*foreach (var obj in turnOffList)
         {
             if(obj.name == "CoinCounter") return;
             obj.gameObject.SetActive(false);
-        }
+        }*/
     }
     private void OnMouseUp1()
     {
         if (!active) return;
-        itemDrag.GetComponent<DragItem>().Drop();
-        foreach (var obj in turnOffList)
+        if(itemDrag != null) itemDrag.GetComponent<DragItem>().Drop();
+        /*foreach (var obj in turnOffList)
         {
             obj.gameObject.SetActive(true);
         }
-        turnOffList.Clear();
+        turnOffList.Clear();*/
         active = false;
     }
 }

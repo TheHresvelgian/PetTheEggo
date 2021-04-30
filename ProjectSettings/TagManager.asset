@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Creature
   - MarkusTheMighty
+  - NamePanel
+  - InputField
+  - Food
+  - Soap
+  - InvPannel
   layers:
   - Default
   - TransparentFX
@@ -13,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - FoodLayer
+  - SoapLayer
   - 
   - 
   - 

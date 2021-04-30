@@ -4,7 +4,7 @@ namespace MiniGames
 {
     public class MazeTimer : MonoBehaviour
     {
-        public int difficulty; //0 is easy, 1 is medium, 2 is hard
+        public static int mazeDifficulty; //0 is easy, 1 is medium, 2 is hard
 
         public float timer { get; private set; }
 
@@ -14,7 +14,7 @@ namespace MiniGames
 
         private void Start()
         {
-            switch (difficulty)
+            switch (mazeDifficulty)
             {
                 case 0:
                     timer = easyTimer;

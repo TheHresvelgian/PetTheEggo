@@ -18,4 +18,4 @@ MonoBehaviour:
   type: 0
   description: "Some say it was made by the finest Italian! Eh, I don\u2019t know,
     I just like chatting with the delivery guy."
-  foodValue: 0
+  foodValue: 25

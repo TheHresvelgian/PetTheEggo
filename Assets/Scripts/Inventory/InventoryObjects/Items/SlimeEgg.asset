@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: SlimeEgg
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 85e2bbff2077cba47a5831cb0919b28c, type: 3}
-  cost: 0
+  cost: 2000
   prefab: {fileID: 0}
   type: 4
-  description: The Slimiest of eggs
+  description: The Slimiest of eggs, contains a good friend
+  PetScrubBase: {fileID: 11400000, guid: e00789a487430924baa0376377f5d4e0, type: 2}

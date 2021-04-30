@@ -150,7 +150,6 @@ MonoBehaviour:
   amount: 0
   playerInv: {fileID: 11400000, guid: 1ba52957f7f691249b18affb3a0ae2e3, type: 2}
   AcceptBox: {fileID: 7215864077280157319, guid: 279304a9a9a1fc34489dcf4788b9c991, type: 3}
-  _canvas: {fileID: 0}
 --- !u!1 &7849449921625554825
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,8 +242,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

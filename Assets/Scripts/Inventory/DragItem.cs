@@ -19,13 +19,42 @@ public class DragItem : MonoBehaviour
     private Vector3 movePos;
     private Vector3 velocity = Vector3.zero;
     [SerializeField] private float smoothTime = 0.3f;
+    [SerializeField] private List<SoapObjects> _soapObjectsList;
+    [SerializeField] private List<FoodObjects> _foodObjectsList;
+    public int ItemValue = 0;
+    public bool tuch;
     private void Start()
     {
         StartCoroutine("MovePos");
         cam = FindObjectOfType<Camera>();
         GetComponent<SpriteRenderer>().sprite = ItemObjects.sprite;
-        
         pressControll.GetComponent<TurnOffUIonDrag>().itemDrag = gameObject;
+        
+        if (ItemObjects.type == ItemType.Food)
+        {
+            foreach (var itm in _foodObjectsList)
+            {
+                if (itm.name == ItemObjects.name)
+                {
+                    ItemValue = itm.foodValue;
+                    gameObject.tag = "Food";
+                    break;
+                }
+            }
+        }
+
+        if (ItemObjects.type == ItemType.Soap && ItemValue == 0)
+        {
+            foreach (var itm in _soapObjectsList)
+            {
+                if (itm.name == ItemObjects.name)
+                {
+                    ItemValue = itm.CleanValue;
+                    gameObject.tag = "Soap";
+                    break;
+                }
+            }
+        }
     }
 
     private IEnumerator MovePos()

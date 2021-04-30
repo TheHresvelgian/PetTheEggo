@@ -761,7 +761,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722a02140d17f5f4982ee8e1ba4c44b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  markusAnim: {fileID: 0}
 --- !u!1 &7215864077722261082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInv: {fileID: 11400000, guid: 1ba52957f7f691249b18affb3a0ae2e3, type: 2}
+  ShopInv: {fileID: 11400000, guid: fd9c0e85d4726784abbc73290399660a, type: 2}
   item: {fileID: 11400000, guid: 33a310634d7af85419b2a4125af0da06, type: 2}
   maxAmount: 20
   arrows:

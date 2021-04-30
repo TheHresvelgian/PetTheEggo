@@ -8,6 +8,9 @@ namespace Pets
     public class PetScript : MonoBehaviour
     {
         public SpriteRenderer _spriteRenderer;
+        [SerializeField] private InventoryObject playerInv;
+        [SerializeField] private ItemObjects egg;
+        public bool _play;
         [SerializeField] public PetScrubBase information;
         [SerializeField] private BaiBitch baiBitch;
         
@@ -47,7 +50,20 @@ namespace Pets
             _spriteRenderer = GetComponent<SpriteRenderer>();
 
             baiBitch = GetComponent<BaiBitch>();
-
+            _play = false;
+            for (int i = 0; i < playerInv.Container.Count; i++)
+            {
+                if (playerInv.Container[i].item == egg && playerInv.Container[i].amount != 0)
+                {
+                    _play = true;
+                    break;
+                }
+            }
+            if (!_play)
+            {
+                _spriteRenderer.sprite = spriteList.basket;
+                return;
+            }
             if (information.creatureType == 0)
             {
                 switch (information.growthStage)

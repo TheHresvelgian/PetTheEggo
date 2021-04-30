@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: ShopInventory
   m_EditorClassIdentifier: 
   Container:
+  - item: {fileID: 11400000, guid: 690817c245673704f838074d4d62a04d, type: 2}
+    amount: 0
+  - item: {fileID: 11400000, guid: d475adc610ab40f4596c3f4e7e94b2a0, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 6e856b7bc2ddf904c8068c9b6d3e98e6, type: 2}
+    amount: 1
   - item: {fileID: 11400000, guid: 33a310634d7af85419b2a4125af0da06, type: 2}
     amount: 99
   - item: {fileID: 11400000, guid: 9d948aeb0e7882d4f87a4356d6e838c3, type: 2}
@@ -21,11 +27,9 @@ MonoBehaviour:
     amount: 99
   - item: {fileID: 11400000, guid: f9fabe63c60cfee48b1910352c64c255, type: 2}
     amount: 99
-  - item: {fileID: 11400000, guid: 6e856b7bc2ddf904c8068c9b6d3e98e6, type: 2}
-    amount: 0
-  - item: {fileID: 11400000, guid: 793d5cbfeba672143bafad5201710365, type: 2}
-    amount: 0
   - item: {fileID: 11400000, guid: 019b3abcc9169d446b98ff50a2ba2fdf, type: 2}
     amount: 99
   - item: {fileID: 11400000, guid: a808a7a94ba200e4482da6822a5a9ea6, type: 2}
     amount: 99
+  - item: {fileID: 11400000, guid: 793d5cbfeba672143bafad5201710365, type: 2}
+    amount: 0

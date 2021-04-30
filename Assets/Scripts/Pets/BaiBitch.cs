@@ -10,6 +10,8 @@ namespace Pets
         [SerializeField] private PetScrubBase petScrubBase;
         [SerializeField] private GameObject baiButton;
         [SerializeField] private SpriteList spriteList;
+        [SerializeField] private InventoryObject ShopInv;
+        [SerializeField] private ItemObjects Egg;
 
         public void Leave()
         {
@@ -17,6 +19,7 @@ namespace Pets
             petScript._spriteRenderer.sprite = spriteList.letter;
             petScrubBase.petSprite = spriteList.letter;
             baiButton.SetActive(true);
+            ShopInv.AddItem(Egg, 1);
         }
 
         public void BaiButton()

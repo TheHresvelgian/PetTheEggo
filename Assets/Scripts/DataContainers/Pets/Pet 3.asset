@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pet 3
   m_EditorClassIdentifier: 
   petName: Snek
-  petSprite: {fileID: 21300000, guid: 88eed77af4cab8e47879eb51c8d3a879, type: 3}
+  petSprite: {fileID: 21300000, guid: 8497bab34f4c3c64caac3bd2d49ed3fe, type: 3}
   growthStage: 0
   creatureType: 2
   love: 98
