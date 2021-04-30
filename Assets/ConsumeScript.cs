@@ -9,12 +9,15 @@ public class ConsumeScript : MonoBehaviour
 {
     private float SoapDurability;
     [SerializeField] private float DurabilityScale = 50;
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Food"))
         {
             other.GetComponent<DragItem>().tuch = true;
             gameObject.GetComponent<PetScript>().information.hunger += other.GetComponent<DragItem>().ItemValue;
+            StartCoroutine(nameof(SpriteEmote));
             Destroy(other.GetComponent<Collider2D>().gameObject);
             UpdateInv();
         }
@@ -34,6 +37,7 @@ public class ConsumeScript : MonoBehaviour
             if (SoapDurability <= 0)
             {
                 gameObject.GetComponent<PetScript>().information.clean += other.GetComponent<DragItem>().ItemValue;
+                StartCoroutine(nameof(SpriteEmote));
                 Destroy(other.gameObject);
                 UpdateInv();
             }
@@ -41,5 +45,15 @@ public class ConsumeScript : MonoBehaviour
     }
 
     private void UpdateInv() => GameObject.FindGameObjectWithTag("InvPannel").GetComponent<InventoryController>().GenerateList();
+
+    private IEnumerator SpriteEmote()
+    {
+        var spriteBefore = GetComponent<PetScript>().spriteList;
+        GetComponent<PetScript>().spriteList = GetComponent<PetScript>().happy;
+        GetComponent<PetScript>().Start();
+        yield return new WaitForSeconds(2f);
+        GetComponent<PetScript>().spriteList = spriteBefore;
+        GetComponent<PetScript>().Start();
+    }
     
 }

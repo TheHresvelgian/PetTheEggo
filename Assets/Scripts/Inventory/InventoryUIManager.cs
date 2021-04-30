@@ -72,8 +72,7 @@ using UnityEngine;
         }
         private void Update()
         {
-            print(transform.localPosition.x);
-            print(open);
+
             if (draged && transform.localPosition.x <= -70f)
             {
                 open = true;

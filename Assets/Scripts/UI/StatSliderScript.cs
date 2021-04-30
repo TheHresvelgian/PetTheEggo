@@ -1,4 +1,6 @@
+using System;
 using DataContainers;
+using Pets;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +11,11 @@ namespace UI
         [SerializeField] private Slider slider;
         [SerializeField] private PetScrubBase pet;
         [SerializeField] private int whichStat;
+        [SerializeField] private GameObject creature;
+        
 
+        public void SetPet() => pet = creature.GetComponent<CreatureController>().selectedPet.GetComponent<PetScript>().information;
+        
         private void Update()
         {
             switch (whichStat)

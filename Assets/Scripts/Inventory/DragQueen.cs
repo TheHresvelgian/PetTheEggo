@@ -20,7 +20,7 @@ public class DragQueen : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     }
     public void OnDrag(PointerEventData eventData)
     {
-        print("Drag");
+     
         _rectTransform.anchoredPosition += new Vector2(eventData.delta.x, 0f);
     }
 
@@ -36,7 +36,7 @@ public class DragQueen : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        print("Button Down");
+       
     }
 
     private void Update()
@@ -44,7 +44,7 @@ public class DragQueen : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         if (Input.touchCount > 0)
         {
             _touch = Input.GetTouch(0);
-            print(_touch.position);
+           
         }
     }
 }

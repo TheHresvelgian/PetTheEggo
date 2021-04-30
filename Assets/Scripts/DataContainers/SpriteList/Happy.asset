@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04e84a6532cf0548a98962ac8af6682, type: 3}
+  m_Name: Happy
+  m_EditorClassIdentifier: 
+  mochiEgg: {fileID: 21300000, guid: a3a3576a53e123548b55b305b4111d79, type: 3}
+  mochiKid: {fileID: 21300000, guid: 328b314d0ec666a4bb1babcf7d75e23d, type: 3}
+  mochiAdult: {fileID: 21300000, guid: 05f9ceeea00fb6c4fbbc7a39ba475184, type: 3}
+  lilmaEgg: {fileID: 21300000, guid: ba48e535d42adb54e8a23af5ee3f2f93, type: 3}
+  lilmaKid: {fileID: 21300000, guid: e16f2e502c3cfb840b90d0c7d743a7a6, type: 3}
+  lilmaAdult: {fileID: 21300000, guid: 901ceed1fadd3c6488fe96bc9f52b95e, type: 3}
+  nyodleEgg: {fileID: 21300000, guid: 88eed77af4cab8e47879eb51c8d3a879, type: 3}
+  nyodleKid: {fileID: 21300000, guid: 50d3294d2d9493e4ba799dc92fe6fe73, type: 3}
+  nyodleAdult: {fileID: 21300000, guid: 71e2695c04f16844fa6b5ab23371d01d, type: 3}
+  letter: {fileID: 0}
+  basket: {fileID: 21300000, guid: d92ebea8d5cbe5848aab8ee88e46dc14, type: 3}

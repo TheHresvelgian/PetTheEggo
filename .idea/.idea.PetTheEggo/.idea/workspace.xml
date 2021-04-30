@@ -4,45 +4,14 @@
     <list default="true" id="1c01fcde-acac-4ba6-9648-1f25ea2a9cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/L_M.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/L_M.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/L_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/L_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/M_R.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/M_R.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/R_L.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/R_L.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/R_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/R_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/AcceptBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/AcceptBox.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/DragItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/DragItem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Panel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Panel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/MochiEgg.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Pets/Eggs/MochiEgg.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Tileset/dirt_tile.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Tileset/dirt_tile.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Tileset/grass_tile.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Tileset/grass_tile.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Buttons/Pet_The_Eggo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Buttons/Pet_The_Eggo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze Levels/MazeEasy1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze Levels/MazeEasy1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ConsumeScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ConsumeScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/InventoryTest2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TheGame/StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TheGame/StartScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/SpriteList/Normal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/SpriteList/Normal.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/DragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/DragItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/PlayerInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/PlayerInventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/ShopInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/ShopInventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Scripts/EggObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Scripts/EggObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Scripts/SoapObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/Scripts/SoapObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/SlimeEgg.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Items/SlimeEgg.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDrag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NumbSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NumbSelect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/TurnOffUIonDrag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/TurnOffUIonDrag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pets/BaiBitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pets/BaiBitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pets/CreatureController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pets/CreatureController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/DragQueen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/DragQueen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/zfib6xad.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/zfib6xad.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StatSliderScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StatSliderScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +41,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/DataContainers/PetScrubBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameSystems/FirstTime.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SSS/Save.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pets/CreatureController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeMenu.cs" />
@@ -86,6 +54,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/TurnOffUIonDrag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/ItemDrag.cs" />
       <option value="$PROJECT_DIR$/Assets/ConsumeScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pets/PetScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/DragQueen.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryUIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/SheepyCheck.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/StatSliderScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qpjjtW2NYmNHPqMP8WxYKGzInF" />
@@ -132,7 +105,7 @@
       <workItem from="1617783575552" duration="2076000" />
       <workItem from="1617797302102" duration="1242000" />
       <workItem from="1619438386168" duration="13000" />
-      <workItem from="1619686922263" duration="30473000" />
+      <workItem from="1619686922263" duration="35503000" />
     </task>
     <servers />
   </component>

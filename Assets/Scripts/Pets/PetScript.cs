@@ -19,7 +19,10 @@ namespace Pets
         private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
 
         private Sprite _sprite;
-        [SerializeField] private SpriteList spriteList;
+        public SpriteList spriteList;
+        public SpriteList normal;
+        public SpriteList happy;
+        public SpriteList pleased;
     
         private int _love;
         private int _isLoving; //-1 is bad (20 or less), 0 is normal (21-50), +1 is good (51-80), +2 is awesome (81-100)
@@ -47,6 +50,10 @@ namespace Pets
     
         public void Start()
         {
+            if (spriteList == null)
+            {
+                spriteList = normal;
+            }
             _spriteRenderer = GetComponent<SpriteRenderer>();
 
             baiBitch = GetComponent<BaiBitch>();
@@ -64,6 +71,7 @@ namespace Pets
                 _spriteRenderer.sprite = spriteList.basket;
                 return;
             }
+            print("Got this far");
             if (information.creatureType == 0)
             {
                 switch (information.growthStage)
@@ -84,6 +92,7 @@ namespace Pets
             }
             else if (information.creatureType == 1)
             {
+                print("Is lilma");
                 switch (information.growthStage)
                 {
                     case 0:
@@ -249,7 +258,7 @@ namespace Pets
         
         private IEnumerator WasPinged()
         {
-            int total = _isClean + _isFull + _isLoving + -_isRested;
+            int total = _isClean + _isFull + _isLoving + _isRested;
             if (_isLoving > -1 && _isClean > -1 && _isFull > -1 && _isRested > -1)
             {
                 if (total == 8)
