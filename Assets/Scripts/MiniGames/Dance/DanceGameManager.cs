@@ -58,6 +58,7 @@ namespace MiniGames.Dance
         public void StartGame()
         {
             theWord = words[Random.Range(0,words.Length)];
+            bleepCount = 1;
             gameButtons = new List<GameObject>();
 
             CreateGameButton(0, position1);
@@ -115,14 +116,20 @@ namespace MiniGames.Dance
 
             if(bleeps[playerBleeps.Count - 1] != index) {
                 danceGameMenu.GameOver();
+                danceGameMenu.spriteList = danceGameMenu.sad;
+                danceGameMenu.Start();
                 return;
             }
-            else if(bleeps.Count == playerBleeps.Count && bleeps.Count < maxBleeps) 
+            else if(bleeps.Count == playerBleeps.Count && bleeps.Count < maxBleeps)
             {
+                danceGameMenu.spriteList = danceGameMenu.pleased;
+                danceGameMenu.Start();
                 StartCoroutine(SimonSays());
             }
             else if (bleeps.Count == playerBleeps.Count && bleeps.Count >= maxBleeps)
             {
+                danceGameMenu.spriteList = danceGameMenu.happy;
+                danceGameMenu.Start();
                 danceGameMenu.GameWon();
             }
         }

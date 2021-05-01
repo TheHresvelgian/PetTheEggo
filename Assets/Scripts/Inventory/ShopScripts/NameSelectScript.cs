@@ -15,10 +15,12 @@ public class NameSelectScript : MonoBehaviour
     public ItemObjects Item;
     private PetScrubBase PetScrubBase;
     [SerializeField] private List<EggObject> eggList;
+    [SerializeField] private GameObject intro;
 
     private void OnEnable() => StartCoroutine("Enable");
     private IEnumerator Enable()
     {
+        if(intro != null) intro.GetComponent<IntroScript>().Next();
         yield return new WaitForSeconds(0.1f);
         foreach (var eggObject in eggList)
         {

@@ -1,5 +1,9 @@
+using System;
 using System.Collections;
+using Pets;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace MiniGames.Dance
 {
@@ -13,6 +17,55 @@ namespace MiniGames.Dance
         [SerializeField] private int easy;
         [SerializeField] private int medium;
         [SerializeField] private int hard;
+
+        public SpriteList spriteList;
+        [SerializeField] private Image image;
+        public SpriteList normal;
+        public SpriteList happy;
+        public SpriteList pleased;
+        public SpriteList sad;
+
+        public void Start()
+        {
+            if (spriteList == null)
+            {
+                spriteList = normal;
+            }
+            switch (CreatureController.selectedPetID)
+            {
+                case 0:
+                    image.sprite = spriteList.mochiEgg;
+                    break;
+                case  1:
+                    image.sprite = spriteList.mochiKid;
+                    break;
+                case 2:
+                    image.sprite = spriteList.mochiAdult;
+                    break;
+                case 3:
+                    image.sprite = spriteList.lilmaEgg;
+                    break;
+                case 4:
+                    image.sprite = spriteList.lilmaKid;
+                    break;
+                case 5:
+                    image.sprite = spriteList.lilmaAdult;
+                    break;
+                case 6:
+                    image.sprite = spriteList.nyodleEgg;
+                    break;
+                case 7:
+                    image.sprite = spriteList.nyodleKid;
+                    break;
+                case 8:
+                    image.sprite = spriteList.nyodleAdult;
+                    break;
+                default:
+                    print("no pet");
+                    break;
+            }
+        }
+
 
         public void SetEasy()
         {
@@ -78,5 +131,8 @@ namespace MiniGames.Dance
             lostPanel.SetActive(false);
             danceGameManager.StartGame();
         }
+
+        public void GoHome() => SceneManager.LoadScene(1);
+        
     }
 }

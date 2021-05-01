@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using DataContainers;
 using Pets;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -16,7 +17,8 @@ public class CreatureController : MonoBehaviour
     [SerializeField] public GameObject selectedPet;
     private int counter = 0;
     private int selectAnim;
-    
+    public static int selectedPetID;
+
     public void Start()
     {
         selectedPet = transform.GetChild(0).gameObject;
@@ -110,5 +112,11 @@ public class CreatureController : MonoBehaviour
             creature.GetComponent<PetScript>().Start();
             StartCoroutine("delayStart");
         }
+    }
+
+    public void SetPetID()
+    {
+        PetScrubBase petScript = selectedPet.GetComponent<PetScript>().information;
+        selectedPetID = petScript.creatureType * 3 + petScript.growthStage;
     }
 }

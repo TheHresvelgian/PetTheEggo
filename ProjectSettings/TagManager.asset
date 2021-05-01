@@ -11,6 +11,7 @@ TagManager:
   - Food
   - Soap
   - InvPannel
+  - Intro
   layers:
   - Default
   - TransparentFX

@@ -23,6 +23,5 @@ public class DirtShaderScript : MonoBehaviour
     {
         Alpha = 1 - petScrub.clean / 100f;
         dirtShader.SetFloat("Vector1_a1d20084c502438f8501941b48084615", Alpha);
-        print(Alpha);
     }
 }

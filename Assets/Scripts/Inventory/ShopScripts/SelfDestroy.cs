@@ -12,6 +12,7 @@ public class SelfDestroy : MonoBehaviour
     [SerializeField] private List<AudioClip> playOnYes;
     [SerializeField] private List<AudioClip> playOnNo;
     private AudioSource Source;
+    private GameObject IntroPannel;
     
 
     public void Start()
@@ -26,6 +27,8 @@ public class SelfDestroy : MonoBehaviour
     public void Yes()
     {
         Source.PlayOneShot(playOnYes[Random.Range(0, playOnYes.Count - 1)]);
+        IntroPannel = GameObject.FindGameObjectWithTag("Intro");
+        if(IntroPannel != null) IntroPannel.GetComponent<IntroScript>().Next();
         Destroy();
     }
     public void No()
