@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c01fcde-acac-4ba6-9648-1f25ea2a9cf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/_Sheep_.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/_Sheep_.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepCrash.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepCrash.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepWalkEyesClosed.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepWalkEyesClosed.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyJump.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyJump.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesClosed.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesClosed.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesOpen.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesOpen.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyWalkEyesOpen.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyWalkEyesOpen.bmp.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Fonts/Marker Felt SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Fonts/Marker Felt SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JumpScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TheGame/Sheepy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TheGame/Sheepy.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +74,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/GoToMiniGame.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/JumpScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qpjjtW2NYmNHPqMP8WxYKGzInF" />
@@ -131,7 +122,7 @@
       <workItem from="1617783575552" duration="2076000" />
       <workItem from="1617797302102" duration="1242000" />
       <workItem from="1619438386168" duration="13000" />
-      <workItem from="1619686922263" duration="68720000" />
+      <workItem from="1619686922263" duration="70677000" />
     </task>
     <servers />
   </component>

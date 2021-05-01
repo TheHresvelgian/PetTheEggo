@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DataContainers;
 using Pets;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 namespace MiniGames.Sheepy
@@ -22,8 +23,6 @@ namespace MiniGames.Sheepy
         [SerializeField] private GameObject rotatePrefab;
 
         public List<GameObject> allSheep;
-        public List<GameObject> jumpedSheep;
-
         [SerializeField] private Transform targetPoint;
 
         [SerializeField] private float sThreshold; //SUPERB!!!
@@ -87,7 +86,6 @@ namespace MiniGames.Sheepy
             menuPanel.SetActive(false);
             gameOverPanel.SetActive(false);
             allSheep = new List<GameObject>();
-            jumpedSheep = new List<GameObject>();
             StartCoroutine(nameof(SpawnDelay));
             score = 0;
             timer = 0;
@@ -172,6 +170,7 @@ namespace MiniGames.Sheepy
 
         public IEnumerator GameOver()
         {
+            StopCoroutine(nameof(SpawnDelay));
             playerInputPanel.SetActive(false);
             allSheep[0].transform.GetChild(0).GetComponent<Animator>().SetTrigger("Jump"); //jump
             yield return new WaitForSeconds(1f);
@@ -179,11 +178,12 @@ namespace MiniGames.Sheepy
             {
                 sheep.transform.GetChild(0).GetComponent<Animator>().SetTrigger("GameOver");//x_x
             }
-            foreach (var sheep in jumpedSheep)
+
+            foreach (var sheep in allSheep)
             {
-                sheep.transform.GetChild(0).GetComponent<Animator>().SetTrigger("GameOver");//x_x
+               sheep.transform.DetachChildren();
             }
-            
+
             thePet.sleepy += score;
             gameOverPanel.SetActive(true);
         }
@@ -193,5 +193,7 @@ namespace MiniGames.Sheepy
             print("Play");
             StartGame();
         }
+
+        public void GoHome() => SceneManager.LoadScene(1);
     }
 }

@@ -19,6 +19,7 @@ public class JumpScript : MonoBehaviour
     {
         timerSpeed = 0;
         transform.parent.GetComponent<Animator>().speed = 0.2f; //* timerSpeed;
+        sheepMovement = FindObjectOfType<Camera>().GetComponent<SheepMovement>();
     }
 
     private void Update()
@@ -29,12 +30,12 @@ public class JumpScript : MonoBehaviour
         transform.localPosition = new Vector3(0,jumpCurve.Evaluate(timer * 2) + baseY, 0);
         if (timer >= 0.5f) Jumping = false;
     }
+    
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        transform.parent = null;
+        print(other.name);
         GetComponent<Animator>().SetTrigger("GameOver");
-        sheepMovement.GameOver();
-
+        sheepMovement.StartCoroutine(nameof(SheepMovement.GameOver));
     }
 }
