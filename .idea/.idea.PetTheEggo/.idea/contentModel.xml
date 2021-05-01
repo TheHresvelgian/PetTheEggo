@@ -10,6 +10,7 @@
         <e p="DirtShaderScript.cs" t="Include" />
         <e p="GoToMiniGame.cs" t="Include" />
         <e p="IntroScript.cs" t="Include" />
+        <e p="JumpScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="DataContainers" t="Include">
             <e p="PetScrubBase.cs" t="Include" />

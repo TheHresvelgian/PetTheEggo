@@ -4,26 +4,18 @@
     <list default="true" id="1c01fcde-acac-4ba6-9648-1f25ea2a9cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PetTheEggo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DirtShaderScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DirtShaderScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/DanceGameButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/DanceGameButton.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/_Sheep_.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/_Sheep_.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepCrash.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepCrash.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepWalkEyesClosed.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepWalkEyesClosed.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyJump.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyJump.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesClosed.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesClosed.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesOpen.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyStandEyesOpen.bmp.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyWalkEyesOpen.bmp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MiniGames/Sheepy/SheepyWalkEyesOpen.bmp.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Fonts/Marker Felt SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Fonts/Marker Felt SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TheGame/DanceDance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TheGame/DanceDance.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TheGame/InventoryTest2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TheGame/InventoryTest2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DataContainers/Pets/Pet 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/PlayerInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/PlayerInventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/ShopInventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryObjects/Inventory/ShopInventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NameSelectScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NameSelectScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/SelfDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/SelfDestroy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pets/CreatureController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pets/CreatureController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TheGame/Sheepy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TheGame/Sheepy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NumbSelect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IntroScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ConsumeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DirtShaderScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSystems/FirstTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/JumpScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGames/A-maze-ing/MazeCompass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/ShopScripts/NameSelectScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,6 +83,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Dance/DanceGameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/GoToMiniGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MiniGames/Sheepy/SheepMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/JumpScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qpjjtW2NYmNHPqMP8WxYKGzInF" />
@@ -128,7 +131,7 @@
       <workItem from="1617783575552" duration="2076000" />
       <workItem from="1617797302102" duration="1242000" />
       <workItem from="1619438386168" duration="13000" />
-      <workItem from="1619686922263" duration="61071000" />
+      <workItem from="1619686922263" duration="68720000" />
     </task>
     <servers />
   </component>
