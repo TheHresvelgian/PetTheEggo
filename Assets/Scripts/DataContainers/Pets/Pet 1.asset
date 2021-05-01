@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Pet 1
   m_EditorClassIdentifier: 
   petName: Basket
-  petSprite: {fileID: 21300000, guid: a3a3576a53e123548b55b305b4111d79, type: 3}
+  petSprite: {fileID: 21300000, guid: ed0ddcf74970c354b8da213d57148a96, type: 3}
   growthStage: 1
   creatureType: 0
   love: 0
-  clean: 0
+  clean: 100
   hunger: 0
   sleepy: 0
   growthPercent: 0

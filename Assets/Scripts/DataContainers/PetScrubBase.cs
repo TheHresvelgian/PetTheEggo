@@ -26,12 +26,11 @@ namespace DataContainers
             petName = null;
             petSprite = null;
             growthStage = 0;
-            creatureType = -1;
 
             love = 0;
-            clean = 0;
-            hunger = 0;
-            sleepy = 0;
+            clean = 100;
+            hunger = 50;
+            sleepy = 50;
             growthPercent = 0;
             leavePercent = 0;
         }

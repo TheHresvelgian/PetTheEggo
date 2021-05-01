@@ -25,6 +25,8 @@ namespace MiniGames.Dance
         public SpriteList pleased;
         public SpriteList sad;
 
+        public InventoryObject playerInv;
+
         public void Start()
         {
             if (spriteList == null)
@@ -104,6 +106,7 @@ namespace MiniGames.Dance
             }
             print("Game Over");
             lostPanel.SetActive(true);
+            playerInv.Container[0].amount += danceGameManager.bleepCount * 5;
         }
 
         public void GameWon()
@@ -116,6 +119,7 @@ namespace MiniGames.Dance
             }
             print("YAY");
             wonPanel.SetActive(true);
+            playerInv.Container[0].amount += danceGameManager.bleepCount * 5;
         }
 
         public void ChangeDifficulty()

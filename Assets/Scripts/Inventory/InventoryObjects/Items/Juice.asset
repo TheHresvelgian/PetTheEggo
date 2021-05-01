@@ -17,4 +17,4 @@ MonoBehaviour:
   prefab: {fileID: 0}
   type: 0
   description: Juicy...
-  foodValue: 0
+  foodValue: 15

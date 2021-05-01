@@ -12,6 +12,7 @@ TagManager:
   - Soap
   - InvPannel
   - Intro
+  - Save
   layers:
   - Default
   - TransparentFX

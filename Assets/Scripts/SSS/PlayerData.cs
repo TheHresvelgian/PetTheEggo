@@ -39,7 +39,8 @@ namespace SSS
             growthPercentages = new int[3];
             leavePercentages = new int[3];
 
-            playerInventory = new int[12];
+            playerInventory = new int[12]; 
+            shopInventory = new int[3];
 
             names[0] = theData.savePet1.petName;
             names[1] = theData.savePet2.petName;
@@ -87,8 +88,6 @@ namespace SSS
             playerInventory[7] = theData.playerInventory.Container[7].amount;
             playerInventory[8] = theData.playerInventory.Container[8].amount;
             playerInventory[9] = theData.playerInventory.Container[9].amount;
-            playerInventory[10] = theData.playerInventory.Container[10].amount;
-            playerInventory[11] = theData.playerInventory.Container[11].amount;
 
             shopInventory[0] = theData.shopInventory.Container[0].amount;
             shopInventory[1] = theData.shopInventory.Container[1].amount;

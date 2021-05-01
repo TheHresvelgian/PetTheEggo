@@ -21,5 +21,5 @@ MonoBehaviour:
   nyodleEgg: {fileID: 21300000, guid: 88eed77af4cab8e47879eb51c8d3a879, type: 3}
   nyodleKid: {fileID: 21300000, guid: dde9a56db0154744ca4692f5323b6dec, type: 3}
   nyodleAdult: {fileID: 21300000, guid: 298e059103d697b49bea3f48a1081958, type: 3}
-  letter: {fileID: 0}
+  letter: {fileID: 21300000, guid: 87d15b24e0eaa5941bb86b87332d8db7, type: 3}
   basket: {fileID: 21300000, guid: d92ebea8d5cbe5848aab8ee88e46dc14, type: 3}

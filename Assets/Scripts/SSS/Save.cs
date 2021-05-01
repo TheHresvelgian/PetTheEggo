@@ -1,3 +1,4 @@
+using System.Collections;
 using System.IO;
 using DataContainers;
 using UnityEngine;
@@ -20,6 +21,18 @@ namespace SSS
             SaveStateSystem.SavePlayer(this);
         }
 
+        public void SaveNQuit()
+        {
+            SaveStateSystem.SavePlayer(this);
+            StartCoroutine(nameof(Close));
+        }
+
+        private IEnumerator Close()
+        {
+            yield return new WaitForSeconds(3f);
+            Application.Quit();
+        }
+        
         public void DeleteSaveData()
         {
             File.Delete(SaveStateSystem._dataPath);
@@ -75,8 +88,6 @@ namespace SSS
             playerInventory.Container[7].amount = data.playerInventory[7];
             playerInventory.Container[8].amount = data.playerInventory[8];
             playerInventory.Container[9].amount = data.playerInventory[9];
-            playerInventory.Container[10].amount = data.playerInventory[10];
-            playerInventory.Container[11].amount = data.playerInventory[11];
 
             shopInventory.Container[0].amount = data.shopInventory[0];
             shopInventory.Container[1].amount = data.shopInventory[1];

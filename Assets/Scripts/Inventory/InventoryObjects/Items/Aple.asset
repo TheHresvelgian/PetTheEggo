@@ -17,4 +17,4 @@ MonoBehaviour:
   prefab: {fileID: 0}
   type: 0
   description: "It\u2019s an apple... not like the phone, but you know, the fruit."
-  foodValue: 0
+  foodValue: 5

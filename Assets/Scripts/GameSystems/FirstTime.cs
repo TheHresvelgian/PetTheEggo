@@ -33,9 +33,11 @@ namespace GameSystems
         public void PlayReturn()
         {
             save.LoadPlayer();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(1);
         }
 
+        public void PlayFirst() => SceneManager.LoadScene(1);
+        
         public void Credits()
         {
             creditsPanel.SetActive(true);

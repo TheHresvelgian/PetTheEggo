@@ -20,6 +20,7 @@ public class NameSelectScript : MonoBehaviour
     private void OnEnable() => StartCoroutine("Enable");
     private IEnumerator Enable()
     {
+        
         if(intro != null) intro.GetComponent<IntroScript>().Next();
         yield return new WaitForSeconds(0.1f);
         foreach (var eggObject in eggList)
@@ -30,6 +31,7 @@ public class NameSelectScript : MonoBehaviour
                 break;
             }
         }
+        Egg.PetScrubBase.ResetPet();
         if(Egg == null) StopCoroutine("Enable");
         PetScrubBase = Egg.PetScrubBase;
         foreach (Transform child in transform)

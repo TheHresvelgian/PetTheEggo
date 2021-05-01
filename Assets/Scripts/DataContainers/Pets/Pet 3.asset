@@ -17,7 +17,7 @@ MonoBehaviour:
   growthStage: 0
   creatureType: 2
   love: 0
-  clean: 0
+  clean: 100
   hunger: 0
   sleepy: 0
   growthPercent: 0

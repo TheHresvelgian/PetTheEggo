@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &69400191
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2384,7 +2384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1663691693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2709,6 +2709,7 @@ MonoBehaviour:
   happy: {fileID: 11400000, guid: 3369666a2edec9e4d8bed91be0e8f650, type: 2}
   pleased: {fileID: 11400000, guid: d4d7579c0e38d81459a66f1c1b5cd64f, type: 2}
   sad: {fileID: 11400000, guid: d2adf2389dd58744ab0fe19da0a32df3, type: 2}
+  playerInv: {fileID: 11400000, guid: 1ba52957f7f691249b18affb3a0ae2e3, type: 2}
 --- !u!82 &1893304037
 AudioSource:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ namespace MiniGames.Dance
 
         public List<GameObject> gameButtons;
 
-        [SerializeField] int bleepCount = 1;
+        public int bleepCount = 1;
 
         List<int> bleeps;
         List<int> playerBleeps;

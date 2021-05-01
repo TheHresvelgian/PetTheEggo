@@ -1,6 +1,6 @@
-using System;
 using System.Collections;
 using DataContainers;
+using SSS;
 using UnityEngine;
 
 namespace Pets
@@ -14,16 +14,13 @@ namespace Pets
         [SerializeField] public PetScrubBase information;
         [SerializeField] private BaiBitch baiBitch;
         
-        private String _petName;
         private int _growthStage; //0 is egg, 1 is kid, 2 is adult
-        private int _creatureType; //0 is blob, 1 is lilma, 2 is dragon
 
         private Sprite _sprite;
         public SpriteList spriteList;
         public SpriteList normal;
         public SpriteList happy;
-        public SpriteList pleased;
-    
+
         private int _love;
         private int _isLoving; //-1 is bad (20 or less), 0 is normal (21-50), +1 is good (51-80), +2 is awesome (81-100)
 
@@ -50,6 +47,18 @@ namespace Pets
     
         public void Start()
         {
+            if (information.love >= 100) information.love = 100;
+            else if (information.love < 0) information.love = 0;
+
+            if (information.hunger >= 100) information.hunger = 100;
+            else if (information.hunger < 0) information.hunger  = 0;
+
+            if (information.sleepy >= 100) information.sleepy = 100;
+            else if (information.sleepy < 0) information.sleepy = 0;
+            
+            if (information.clean >= 100) information.clean = 100;
+            else if (information.clean < 0) information.clean = 0;
+            
             if (spriteList == null)
             {
                 spriteList = normal;
@@ -138,11 +147,7 @@ namespace Pets
 
             _sleepy = information.sleepy;
 
-            _petName = information.petName;
-
             _growthStage = information.growthStage;
-
-            _creatureType = information.creatureType;
 
             _growthPercent = information.growthPercent;
 
@@ -152,6 +157,18 @@ namespace Pets
 
         private void Update()
         {
+            if (information.love >= 100) information.love = 100;
+            else if (information.love < 0) information.love = 0;
+
+            if (information.hunger >= 100) information.hunger = 100;
+            else if (information.hunger < 0) information.hunger  = 0;
+
+            if (information.sleepy >= 100) information.sleepy = 100;
+            else if (information.sleepy < 0) information.sleepy = 0;
+            
+            if (information.clean >= 100) information.clean = 100;
+            else if (information.clean < 0) information.clean = 0;
+            
             _timer += Time.deltaTime;
             if (_timer >= pingTime)
             {
@@ -247,6 +264,8 @@ namespace Pets
             }
 
         }
+        
+        
 
         public void ChangeSprite(Sprite newSprite)
         {
@@ -297,6 +316,8 @@ namespace Pets
             information.hunger = _hunger;
             information.sleepy = _sleepy;
             information.growthPercent = _growthPercent;
+            
+            GameObject.FindGameObjectWithTag("Save").GetComponent<Save>().SavePlayer();
         }
     }
 }
